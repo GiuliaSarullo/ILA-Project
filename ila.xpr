@@ -4,5 +4,7 @@
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options/>
     </meta>
-    <projectTree name="ila.xpr"/>
+    <projectTree name="ila.xpr">
+        <folder path="xml/"/>
+    </projectTree>
 </project>
