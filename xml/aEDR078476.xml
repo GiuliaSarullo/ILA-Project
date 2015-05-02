@@ -1,29 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
-		<teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
 			<fileDesc>
 				<titleStmt>
 				<title>EDR078476</title>
 				</titleStmt>  
 				<publicationStmt>
 				<authority>Epigraphic Database Roma</authority>
-				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR078476</idno>
-				<idno type="URI"/>
-				<availability default="false" status="unknown">
-					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR078476</idno>
+				<idno type="TM">251070</idno>
+				<idno type="localID">EDR078476</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Epigraphic Database Roma</licence>
 				</availability>
 				</publicationStmt>
-				<sourceDesc default="false">
+				<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country>
-						<placeName type="modernCountry" instant="false" full="yes">Italia</placeName>
-						</country>
-						<region>
-						<placeName/>
-						</region>
-						<settlement>
-						<placeName instant="false" full="yes">Le Ferriere (Latina)</placeName>                     
-						</settlement>
+						
+						
+						
 						<repository>Roma, Museo Nazionale Romano, Terme di Diocleziano, inv. Scavo SA77-01</repository>
 						<collection/>
 						<idno/>
@@ -34,13 +31,13 @@
 							<support>
 								<objectType>basis, donum?</objectType>
 								<material>lapis tophus</material>
-								<p part="N"/>
+								<p/>
 								<dimensions unit="cm">
 								<height>16.50</height>
 								<width>87.00</width>
 								<depth>63.20</depth>
 								</dimensions>
-								<rs type="decoration"/>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="en">no decoration</rs>
 								<rs type="statPreserv">tit. mutilus</rs>
 							</support>
 						</supportDesc>
@@ -59,22 +56,22 @@
 					</physDesc>
 					
 					<history>
-						<origin instant="false">
+						<origin>
 
-						
-						<origDate notBefore-custom="-520" notAfter-custom="-501" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">-520 BC - -520 BC</origDate>
+						<origPlace><placeName type="provinceItalicRegion">Latium et Campania cum insulis (Regio I)</placeName><placeName>Antium - Satricum</placeName></origPlace>
+						<origDate notBefore-custom="-0520" notAfter-custom="-0501" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">-520 BC - -501 BC</origDate>
 						
 						</origin>
 						<provenance type="found"> 
-						<placeName instant="false" full="yes">Le Ferriere (Latina), nelle fondazioni della peristasi orientale del tempio (II) di Mater Matuta (in reimpiego) (a. 1977)</placeName>
-						</provenance>
+						<placeName>Le Ferriere (Latina), nelle fondazioni della peristasi orientale del tempio (II) di Mater Matuta (in reimpiego) (a. 1977)</placeName>
+						<placeName>Le Ferriere (Latina)</placeName><placeName type="modern_region"/><placeName type="modernCountry">Italia</placeName></provenance>
 					</history>
 				</msDesc>
 				</sourceDesc>
 			</fileDesc>
 				
 			<encodingDesc>
-				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
 				<classDecl>
 				<taxonomy>
 					<category xml:id="representation">
@@ -84,13 +81,13 @@
 				</classDecl>
 			</encodingDesc>
 			<profileDesc>
-				<textClass default="false">
+				<textClass>
 		<keywords>
 		<term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
 		</keywords>
 		</textClass>
 
-				<langUsage default="false">
+				<langUsage>
 				<language ident="ar">Arabic</language>
 				<language ident="en">English</language>
 				<language ident="fr">French</language>
@@ -104,8 +101,8 @@
 				<language ident="sp">Spanish</language>
 				</langUsage>
 			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
-			<revisionDesc status="draft">
-			<change when="1970-01-01" who="DAVID2 NONNIS" status="draft">
+			<revisionDesc>
+			<change when="2015-04-19" who="DAVID2 NONNIS">
 			</change>
 
 			</revisionDesc>
@@ -114,11 +111,15 @@
 			<facsimile>
 			
 					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/78/078476.jpg">
-						<desc>Lapis Satricanus</desc>
+					<desc>Lapis Satricanus
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
 					</graphic>
 				
 					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/78/078476-1.jpg">
-						<desc>Lapis Satricanus, in situ</desc>
+					<desc>Lapis Satricanus, in situ
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
 					</graphic>
 				
 			</facsimile>
@@ -126,151 +127,157 @@
 		<text>
 			<body>
 					
-				<div type="bibliography" part="N" org="uniform" sample="complete">
-				<listBibl default="false">
+				<div type="bibliography">
+				<listBibl>
 		
-					<bibl default="false" status="draft">
+					<bibl>
 						Lapis Satricanus. Archaeological, epigraphical, linguistic and historical aspects of the new inscription from Satricum, 's-Gravenhage 1980, con foto (C.M. Stibbe - G. Colonna - C. De Simone - H.S. Versnel) (1)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						CIL 01 (2 ed.), 2832a, con facsimile e bibliografia (2)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						R. Wachter, Altlateinische Inschriften. Sprachliche und epigraphische Untersuchungen zu den Dokumenten bis etwa 150 v. Chr., Bern 1987, pp. 75-80, §29 (3)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Gymnasium, 94, 1987, pp. 97-108 (E. Ferenczy) - AE 1989 (4)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1989, 0152 (5)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Stud. Etr., 59, 1993, pp. 323-327 (A.L. Prosdocimi) - AE 1993 (6)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1993, 0449 (7)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Par. Pass., 49, 1994, pp. 365-377, con foto (A.L. Prosdocimi) - AE 1994 (8)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1994, 0383 (9)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Stud. Etr., 61, 1995, pp. 247-253 (C. De Simone) - AE 1995 (10)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1995, 0292 (11)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Stud. Etr., 61, 1995, pp. 350-351, tav. XLVIIa (G. Colonna) - AE 1995 (12)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1995, 0293 (13)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						In vino veritas, Oxford 1995, pp. 210-211 (F. Coarelli) (14)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Ostraka, 5, 1996, pp. 231-242, con disegno (J.A.K. de Waele) - AE 1996(15)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1996, 0399 (16)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Med. Nederl. Hist. Inst. Roma, 56, 1997, pp. 35-36 (D.W. Waarsenburg) (17)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Med. Nederl. Hist. Inst. Roma, 56, 1997, pp. 74-77, con disegni a figg. 3-4 (J.A.K.E. de Waele) (18)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Med. Nederl. Hist. Inst. Roma, 56, 1997, pp. 177-197 (H.S. Versnel), con bibliografia (19)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Med. Nederl. Hist. Inst. Roma, 56, 1997, pp. 198-200, con foto (D.W. Waarsenburg) (20)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Med. Nederl. Hist. Inst. Roma, 56, 1997, pp. 201-203 (C. De Simone) (21)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Stud. Mat. Stor. Rel., 63, 1997, pp. 258-66 (C. Santi) (22)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Mél. Arch. Hist. Ec. Fr. Rome Ant., 111, 1999, pp. 847-881 (E. Hermon) (23)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						E, Lucchesi - E. Magni, Vecchie e nuove (in)certezze sul Lapis Satricanus, Pisa - Roma 2002, in part. pp. 83-85, App. I, con foto (per un quadro delle principali proposte interpretative del testo) (24)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						M. Hartmann, Die Frühlateinischen Inschriften und ihre Datierung, Bremen 2005, pp. 138-142, 2.2.7, con foto, disegni e bibliografia (25)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Satricum. Trenta anni di scavi olandesi, a cura di M. Gnade, Amsterdam 2007, pp. 98-99 e 194-196, nr. 636, con foto (G. Colonna) (26) 
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Alessandria, 3, 2009, pp. 67-100 (G. Rocca - G. Sarullo - E. Beozia - A. Barmpoutis) (27)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						La grande Roma dei Tarquini (Atti del XVI Convegno di Studi sulla storia e l'archeologia dell'Etruria), Roma 2010, pp. 379-382, 1.2.5 (A.L. Prosdocimi)(28)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						F. Coarelli, Le origini di Roma. La cultura artistica dalle origini al III sec. a.C.,Milano 2011, p. 36, con facsimile (29)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Terme di Diocleziano. La collezione epigrafica, Milano 2012, pp. 122-124, nr. II,11, con foto e bibliografia (M. Gnade - D. Nonnis) (30)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
-						HD001651 (A. Scheithauer) (31)
+					<bibl>
+						Le lingue dell'Italia antica oltre il latino: lasciamo parlare i testi (Istituto Lombardo - Accademia di Scienze e Lettere - Incontri di Studio), Milano 2014, pp. 151-170  (G. Rocca - G. Sarullo) (31)
+					</bibl> 
+			
+					<bibl>
+						HD001651 (A. Scheithauer) (32)
 					</bibl> 
 			
 				</listBibl>
 				</div>
 				
 				
-				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
-				<gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>̲IEISTETERAI <choice><corr>Popliosio</corr><sic>Publi</sic></choice> <choice><corr>Valesiosio</corr><sic>Valeri</sic></choice><lb n="2"/><choice><corr>suodales</corr><sic>sodales</sic></choice> <choice><corr>Mamartei</corr><sic>Marti</sic></choice>.
+				<!--
+				[- - -]+̲IEISTETERAI Popliosio (:Publi) Valesiosio (:Valeri) / suodales (:sodales) Mamartei (:Marti).
+				--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+				<gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>̲IEISTETERAI <choice><sic>Popliosio</sic><corr>Publi</corr></choice> <choice><sic>Valesiosio</sic><corr>Valeri</corr></choice><lb n="2"/><choice><sic>suodales</sic><corr>sodales</corr></choice> <choice><sic>Mamartei</sic><corr>Marti</corr></choice>.
 				</ab></div>
 
-				<div type="apparatus" part="N" org="uniform" sample="complete">
+				<div type="apparatus">
 		
-					<p part="N">
+					<p>
 						Textus secundum (30), contulit Nonnis a. 2013.&lt;br&gt;Iscrizione in scrittura continua, con probabile disposizione simmetrica del testo.&lt;br&gt;v. 1: la prima lettera (variamente letta come N o come V con tratti asimmetrici) conservata a sinistra, incisa su uno scheggione del lapis andato perduto, è documentata da una foto di scavo (20); l'ampiezza della lacuna iniziale oscilla tra le 3-4 lettere.&lt;br&gt;Il monumento è prevalentemente interpretato come base di un donario offerto a una divinità; per una diversa possibile lettura dell'iscrizione come epitaffio vd. (14) e (29).&lt;br&gt;Le numerose proposte ricostruttive della parte inziale del testo sono richiamate in (24), cui si può aggiungere (22).&lt;br&gt;Si tende in genere a separare il segmento iniziale in [---]+iei steterai. Si riconosce, in particolare, nella prima parola la parte finale di un nominativo plurale, da riferire agli offerenti, identificati come membri di una gens, ad es. [Lai]viei o [Iou]niei (26) o di un gruppo, ad es. di [iou]niei = iuvenes (19) e (23); contestualmente si interpreta steterai (= steterunt?) come terza persona plurale di un perfetto. Per una diversa divisione dell'inizio del testo in [Ma]nieis Teterai (= diis chtoniis) cfr. (14) e (29).&lt;br&gt;I dedicanti si qualificano come suodales (=compagni) di un Publio Valerio, convincentemente identificato con uno dei primi consoli della Repubblica (P. Valerio Publicola, cos. per quattro volte tra il 509 e il 503 a.C.).&lt;br&gt;v. 2: l'ultima parola (Mamartei) viene in genere intesa come dativo del teonimo Mars, forse sintatticamente dipendente da suodales che precede, e quindi non da riferire alla divinità destinataria dell'offerta, cfr. (14).&lt;br&gt;Per una possibile natura metrica del testo cfr. (14).
 					</p> 
 			
 				</div>
 			
-				<div type="commentary" part="N" org="uniform" sample="complete">
-				<p part="N"/>
+				<div type="commentary">
+				<p/>
 				</div>
 
 			</body>

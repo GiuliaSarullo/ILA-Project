@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>EDR111721</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR111721</idno>
+				<idno type="TM">256173</idno>
+				<idno type="localID">EDR111721</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Epigraphic Database Roma</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						
+						
+						
+						<repository>Roma, Museo Nazionale Preistorico Etnografico L. Pigorini. Inv. 152294 </repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/163">monile, fibula</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/112">aurum</material>
+								<p/>
+								<dimensions unit="cm">
+								<height>2.50</height>
+								<width>10.70</width>
+								<depth>0.00</depth>
+								</dimensions>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="en">no decoration</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/13">tit. integer</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/3">caelo</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm">0.13-0,4</height>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+
+						<origPlace><placeName type="provinceItalicRegion">Latium et Campania cum insulis (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/014344">Praeneste</placeName></origPlace>
+						<origDate notBefore-custom="-0670" notAfter-custom="-0630" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">-670 BC - -630 BC</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName>Palestrina (Roma). tomba Bernardini (?) (a. 1876)</placeName>
+						<placeName>Palestrina (Roma)</placeName><placeName type="modern_region"/><placeName type="modernCountry">Italia</placeName></provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/106">cetera</term>
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2013-01-03" who="David NONNIS">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/111/111721.jpg">
+					<desc>foto - DAI Rom - Image already provided by Linked Heritage
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/111/111721-1.jpg">
+					<desc>foto DAI Rom - Image already provided by Linked Heritage
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography">
+				<listBibl>
+		
+					<bibl>
+						CIL 14, 04123, con facsimile (1)
+					</bibl> 
+			
+					<bibl>
+						CIL 01 (2 ed.), 0003 (2), cfr. pp. 717 (3), 855 (4)
+					</bibl> 
+			
+					<bibl>
+						Daidalos, 5, 2004, pp. 1-34 (M. Mancini), con ampia bibliografia (5)
+					</bibl> 
+			
+					<bibl>
+						SupplIt Imagines - Latium 01, 0800, cum alia bibliographia (6)
+					</bibl> 
+			
+					<bibl>
+						A. Franchi de Bellis, La fibula di Numasio e la coppa dei Veturii (Quad. Ist. Ling. Univ. Urbino, 12), Alessandria 2007, pp. 68-123, con fotografie (tavv. I-II) e ampia bibliografia precedente (7)
+					</bibl> 
+			
+					<bibl>
+						Oltre Roma. Nei Colli Albani e Prenestini al tempo del Grand Tour, Roma 2012, pp. 368-370, P 2.36 c con fotografia (E. Mangani) (8)
+					</bibl> 
+			
+					<bibl>
+						Terme di Diocleziano. La collezione epigrafica, a cura di R. Friggeri - M.G. Granino - G.L. Gregori, Milano 2012, pp. 92-94, II,1 cum imagine photographica (P. Poccetti) (9)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<!--
+				Manios (:Manius) med (:me)  vhevhaked (:fecit) Numasioi (:Numerio).
+				--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+				<choice><sic>Manios</sic><corr>Manius</corr></choice> <choice><sic>med</sic><corr>me</corr></choice>  <choice><sic>vhevhaked</sic><corr>fecit</corr></choice> <choice><sic>Numasioi</sic><corr>Numerio</corr></choice>.
+				</ab></div>
+
+				<div type="apparatus">
+		
+					<p>
+						Textus secundum (1)-(9), contulit ad imaginem D. Nonnis a. 2011&lt;br&gt;Iscrizione incisa, da destra verso sinistra, sulla staffa&lt;br&gt;interpunzione tra le parole resa mediante coppia di punti (:); interpunzione sillabica (resa mediante fila di tre punti) in vhe.vhaked
+					</p> 
+			
+				</div>
+			
+				<div type="commentary">
+				<p/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

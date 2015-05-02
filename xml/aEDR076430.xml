@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>EDR076430</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR076430</idno>
+				<idno type="TM">250662</idno>
+				<idno type="localID">EDR076430</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Epigraphic Database Roma</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						
+						
+						
+						<repository>Roma, Museo Nazionale Romano. Terme di Diocleziano - Dipartimento Epigrafico, inv. 135931</repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/109">aes</material>
+								<p/>
+								<dimensions unit="cm">
+								<height>5.30</height>
+								<width>29.10</width>
+								<depth>0.15</depth>
+								</dimensions>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="en">no decoration</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/13">tit. integer</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">scalpro</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm">0,7-1,7</height>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+
+						<origPlace><placeName type="provinceItalicRegion">Latium et Campania cum insulis (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/023504">Lavinium</placeName></origPlace>
+						<origDate notBefore-custom="-0550" notAfter-custom="-0525" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">-550 BC - -525 BC</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName>Pratica di Mare (Roma), santuario dellle XIII are - presso l'ara VIII (a. 1958)</placeName>
+						<placeName>Pratica di Mare (Roma)</placeName><placeName type="modern_region"/><placeName type="modernCountry">Italia</placeName></provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2014-08-21" who="DAVID NONNIS">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/76/076430.jpg">
+					<desc> - Image already provided by Linked Heritage
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/76/076430-1.jpg">
+					<desc>Lamina con dedica ai Castori: apografo
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography">
+				<listBibl>
+		
+					<bibl>
+						CIL 01 (2 ed.), 2833, con bibliografia precedente (1)
+					</bibl> 
+			
+					<bibl>
+						Lapis Satricanus. Archaeological, epigraphical, linguistic and historical aspects of the new inscription from Satricum, s'-Gravenhage 1980, pp. 47-48, 50 con facsimile a p. 47 fig. 3 (G. Colonna) = G. Colonna, Italia ante romanum imperium. Scritti di antichità etrusche, italiche e romane (1958-1998), III, Pisa - Roma 2005, pp. 1643-1644, con facsimile a fig. 5 (2)
+					</bibl> 
+			
+					<bibl>
+						Enea nel Lazio. Archeologia e mito (catalogo mostra), Roma 1981, pp. 179-180, D18, con fotografia (F. Castagnoli)  (3)
+					</bibl> 
+			
+					<bibl>
+						A.E. Gordon, Illustrated Introduction to Latin Epigraphy, Los Angeles - London 1983, pp. 76-77 nr. 2, con fotografia a Pl. I,2 (4)
+					</bibl> 
+			
+					<bibl>
+						R. Wachter, Altlateinische Inschriften, Bern - Frankfurt am Main - New York - Paris 1987, pp. 85-92, § 33-35 (5)
+					</bibl> 
+			
+					<bibl>
+						A. Dubourdieu, Les origines et le dévoloppement du cult des Pénates à Rome, Rome 1989, pp. 285-292 (6)
+					</bibl> 
+			
+					<bibl>
+						La grande Roma dei Tarquini (catalogo mostra), Roma 1990, pp. 190-191, 8.3.29 (G. Tagliamonte) (7)
+					</bibl> 
+			
+					<bibl>
+						Castores. L'immagine dei Dioscuri a Roma (catalogo mostra), Roma 1994, pp. 59-62 (M. Bertinetti) (8)
+					</bibl> 
+			
+					<bibl>
+						In vino veritas, Oxford 1995, p. 209 (F. Coarelli) (9)
+					</bibl> 
+			
+					<bibl>
+						R. Friggeri, La collezione epigrafica del Museo Nazionale alle Terme di Diocleziano, Milano 2001, p. 27, con foto a colori (10)
+					</bibl> 
+			
+					<bibl>
+						P. Kruschwitz, Carmina Saturnia Epigraphica, Stuttgart 2002, p. 202 (11)
+					</bibl> 
+			
+					<bibl>
+						M. Hartmann, Die fruelateinischen Inschriften und ihre Datierung, Bremen 2005, pp. 107-108, 2.2.3, con fotografia, facsimile e ampia bibliografia (12)
+					</bibl> 
+			
+					<bibl>
+						HD006237 (H. Niquet) (13)
+					</bibl> 
+			
+					<bibl>
+						La Grande Roma dei Tarquini (Atti del XVII Convegno Internazionale di Studi sulla Storia e l'Archeologia dell'Eturia), Roma 2010, pp. 376-378, 1.2.2 (A.L. Prosdocimi) (14)
+					</bibl> 
+			
+					<bibl>
+						Terme di Diocleziano. La collezione epigrafica, Milano 2012, pp. 127-128, II,12 cum imagine photographica (D. Nonnis) (15)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<!--
+				Castorei (:Castori) Podlouqueique (:Pollucique) / qurois.
+				--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+				<choice><sic>Castorei</sic><corr>Castori</corr></choice> <choice><sic>Podlouqueique</sic><corr>Pollucique</corr></choice><lb n="2"/>qurois.
+				</ab></div>
+
+				<div type="apparatus">
+		
+					<p>
+						Textus secundum (1)-(15), contulit ad imaginem D. Nonnis (a. 2010).&lt;br&gt;Scriptura a dextra ad sinistram derecta est.&lt;br&gt;Sulla possibile natura metrica del documento cfr. (9) e (11).
+					</p> 
+			
+				</div>
+			
+				<div type="commentary">
+				<p/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

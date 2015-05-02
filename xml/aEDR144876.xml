@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>EDR144876</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR144876</idno>
+				<idno type="TM"/>
+				<idno type="localID">EDR144876</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Epigraphic Database Roma</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						
+						
+						
+						<repository>Lanuvio (Roma), Museo Civico</repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType>vas, mensa bucchero</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/130">creta</material>
+								<p/>
+								<dimensions unit="cm">
+								<height>0.00</height>
+								<width>0.00</width>
+								<depth>7.50</depth>
+								</dimensions>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="en">no decoration</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/6">tit. fragmenta inter se coniuncta</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/9">litt. scariph.</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm">0,6-0,9</height>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+
+						<origPlace><placeName type="provinceItalicRegion">Latium et Campania cum insulis (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/032315">Lanuvium</placeName></origPlace>
+						<origDate notBefore-custom="-0530" notAfter-custom="-0501" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">-530 BC - -501 BC</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName>Lanuvio (Roma), area del santuario di Iuno Sospita? (un tempo facente parte della collezione Dionigi di Lanuvio)</placeName>
+						<placeName>Lanuvio (Roma)</placeName><placeName type="modern_region"/><placeName type="modernCountry">Italia</placeName></provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>cetera alfabetario</term>
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2014-11-21" who="David NONNIS">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/144/144876.jpg">
+					<desc>Alfabetario
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography">
+				<listBibl>
+		
+					<bibl>
+						Stud. Etr., 70, 2004 [2005], pp. 68-78, con fotografia e facsimile (L. Attenni - D.F. Maras) (1)
+					</bibl> 
+			
+					<bibl>
+						Theodor Mommsen e il Lazio antico. Giornata di Studi in memoria dell'illustre storico, epigrafista e giurista (Terracina, Sala Valadier, 3 aprile 2004), Roma 2009, pp. 105 e 115 (nr. 42), con Tabelle 1-2 f.t. nr. 42 e facsimile a fig. 1 (p. 106) (D.F. Maras) (2)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<!--
+				〈:sub pede vasi〉 / [- - -] Ḳ L M N O P Q R S T̂ V X
+				--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+				〈:sub pede vasi〉<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>K</unclear> L M N O P Q R S T̂ V X
+				</ab></div>
+
+				<div type="apparatus">
+		
+					<p>
+						Textus secundum (1)-(2), contulit ad imaginem D. Nonnis (a. 2014)&lt;br&gt;v.1: [ A B C D E F Z H I] K L M N O P Q R S T V X (1)&lt;br&gt;Alfabetario graffito, con andamento destrorso, sul fondo esterno di una coppa su piede ad anello di bucchero (sequenza di lettere graffita all'interno del piede).
+					</p> 
+			
+				</div>
+			
+				<div type="commentary">
+				<p/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

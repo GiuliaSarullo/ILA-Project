@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>EDR071720</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR071720</idno>
+				<idno type="TM">263149</idno>
+				<idno type="localID">EDR071720</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Epigraphic Database Roma</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						
+						
+						
+						<repository/>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">ignoratur</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/138">ignoratur</material>
+								<p/>
+								<dimensions unit="cm">
+								<height/>
+								<width/>
+								<depth/>
+								</dimensions>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="en">no decoration</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/13">tit. integer</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution"/>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm"/>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+
+						<origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+						<origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"> AD</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName/>
+						<placeName>Roma</placeName><placeName type="modern_region"/><placeName type="modernCountry">Italia</placeName></provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/143">ignoratur</term>
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2004-05-07" who="RUCK">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-1.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-2.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-3.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-4.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography">
+				<listBibl>
+		
+					<bibl>
+						AE 1899, 0208.
+					</bibl> 
+			
+					<bibl>
+						AE 1913, p. 11 s. n. 48.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 16 s. n. 43.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 28 s. n. 81.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 35 s. n. 105.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 13 s. n. 31.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 16 s. n. 41.
+					</bibl> 
+			
+					<bibl>
+						AE 1903, p. 2 s. n. 4.
+					</bibl> 
+			
+					<bibl>
+						AE 1899, p. 45 s. n. 152.
+					</bibl> 
+			
+					<bibl>
+						AE 1907, p. 41 s. n. 143.
+					</bibl> 
+			
+					<bibl>
+						AE 1905, p. 56 s. n. 235.
+					</bibl> 
+			
+					<bibl>
+						ILLRP 0003.
+					</bibl> 
+			
+					<bibl>
+						CIL 01 (2. Aufl.) 02, 00001.
+					</bibl> 
+			
+					<bibl>
+						HD016204
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<!--
+				Quoi HO[- - -] / [- - -] sakros es= / ed SORD[- - -] // / [- - -]OKAF(?) has(?) / recei IO[- - -] / [- - - d]evam(?) / quos RE[- - -] // / [- - -]M kalato= / rem HAB[- - -] / [- - -]tod iouxmen= / ta kapiad(?) OTAV[- - -]// / M iter(?) PE[- - -](?) / [- - -]M quoi ha(?) / velod nequ[- - -] / [- - -]od iovestod // / loiuquiod(?) qo[- - -] / [- - - - - -]
+				--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+				Quoi HO<gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> sakros es<lb break="no" n="3"/> ed SORD<gap reason="lost" extent="unknown" unit="character"/><lb n="4"/><lb n="5"/><lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>OKAF</abbr><ex>?</ex></expan> <expan><abbr>has</abbr><ex>?</ex></expan><lb n="7"/>recei IO<gap reason="lost" extent="unknown" unit="character"/><lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> d</supplied><expan><abbr>evam</abbr><ex>?</ex></expan><lb n="9"/>quos RE<gap reason="lost" extent="unknown" unit="character"/><lb n="10"/><lb n="11"/><lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>M kalato<lb break="no" n="13"/> rem HAB<gap reason="lost" extent="unknown" unit="character"/><lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>tod iouxmen<lb break="no" n="15"/> ta <expan><abbr>kapiad</abbr><ex>?</ex></expan> OTAV<gap reason="lost" extent="unknown" unit="character"/>/<lb n="16"/><lb n="17"/>M <expan><abbr>iter</abbr><ex>?</ex></expan> PE<supplied reason="lost" cert="low">---</supplied><lb n="18"/><gap reason="lost" extent="unknown" unit="character"/>M quoi <expan><abbr>ha</abbr><ex>?</ex></expan><lb n="19"/>velod nequ<gap reason="lost" extent="unknown" unit="character"/><lb n="20"/><gap reason="lost" extent="unknown" unit="character"/>od iovestod<lb n="21"/><lb n="22"/><lb n="23"/><expan><abbr>loiuquiod</abbr><ex>?</ex></expan> qo<gap reason="lost" extent="unknown" unit="character"/><lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+				</ab></div>
+
+				<div type="apparatus">
+		
+					<p>
+						
+					</p> 
+			
+				</div>
+			
+				<div type="commentary">
+				<p/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

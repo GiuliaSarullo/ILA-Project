@@ -1,29 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
-		<teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
 			<fileDesc>
 				<titleStmt>
 				<title>EDR134539</title>
 				</titleStmt>  
 				<publicationStmt>
 				<authority>Epigraphic Database Roma</authority>
-				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR134539</idno>
-				<idno type="URI"/>
-				<availability default="false" status="unknown">
-					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR134539</idno>
+				<idno type="TM"/>
+				<idno type="localID">EDR134539</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Epigraphic Database Roma</licence>
 				</availability>
 				</publicationStmt>
-				<sourceDesc default="false">
+				<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country>
-						<placeName type="modernCountry" instant="false" full="yes">Italia</placeName>
-						</country>
-						<region>
-						<placeName/>
-						</region>
-						<settlement>
-						<placeName instant="false" full="yes">Le Ferriere (Latina)</placeName>                     
-						</settlement>
+						
+						
+						
 						<repository>Le Ferriere (Latina), magazzini (inv. S4607/1)</repository>
 						<collection/>
 						<idno/>
@@ -33,14 +30,14 @@
 						<supportDesc>
 							<support>
 								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/305">vas, mensa</objectType>
-								<material>creta</material>
-								<p part="N"/>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/130">creta</material>
+								<p/>
 								<dimensions unit="cm">
 								<height>5.60</height>
 								<width>0.00</width>
 								<depth>4.30</depth>
 								</dimensions>
-								<rs type="decoration"/>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="en">no decoration</rs>
 								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15">tit. fragmentum</rs>
 							</support>
 						</supportDesc>
@@ -59,22 +56,22 @@
 					</physDesc>
 					
 					<history>
-						<origin instant="false">
+						<origin>
 
-						
-						<origDate notBefore-custom="-670" notAfter-custom="-650" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">-670 BC - -670 BC</origDate>
+						<origPlace><placeName type="provinceItalicRegion">Latium et Campania cum insulis (Regio I)</placeName><placeName>Antium - Satricum</placeName></origPlace>
+						<origDate notBefore-custom="-0670" notAfter-custom="-0650" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">-670 BC - -650 BC</origDate>
 						
 						</origin>
 						<provenance type="found"> 
-						<placeName instant="false" full="yes">Le Ferriere (Latina), acropoli - contesto abitativo (strati sotto la struttura A')</placeName>
-						</provenance>
+						<placeName>Le Ferriere (Latina), acropoli - contesto abitativo (strati sotto la struttura A')</placeName>
+						<placeName>Le Ferriere (Latina)</placeName><placeName type="modern_region"/><placeName type="modernCountry">Italia</placeName></provenance>
 					</history>
 				</msDesc>
 				</sourceDesc>
 			</fileDesc>
 				
 			<encodingDesc>
-				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
 				<classDecl>
 				<taxonomy>
 					<category xml:id="representation">
@@ -84,13 +81,13 @@
 				</classDecl>
 			</encodingDesc>
 			<profileDesc>
-				<textClass default="false">
+				<textClass>
 		<keywords>
 		<term ref="http://www.eagle-network.eu/voc/typeins/lod/106">cetera</term>
 		</keywords>
 		</textClass>
 
-				<langUsage default="false">
+				<langUsage>
 				<language ident="ar">Arabic</language>
 				<language ident="en">English</language>
 				<language ident="fr">French</language>
@@ -104,8 +101,8 @@
 				<language ident="sp">Spanish</language>
 				</langUsage>
 			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
-			<revisionDesc status="draft">
-			<change when="1970-01-01" who="David2 NONNIS" status="draft">
+			<revisionDesc>
+			<change when="2013-12-21" who="David2 NONNIS">
 			</change>
 
 			</revisionDesc>
@@ -114,7 +111,9 @@
 			<facsimile>
 			
 					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134539.jpg">
-						<desc>Frammento di anforetta con iscrizione arcaica</desc>
+					<desc>Frammento di anforetta con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
 					</graphic>
 				
 			</facsimile>
@@ -122,46 +121,46 @@
 		<text>
 			<body>
 					
-				<div type="bibliography" part="N" org="uniform" sample="complete">
-				<listBibl default="false">
+				<div type="bibliography">
+				<listBibl>
 		
-					<bibl default="false" status="draft">
+					<bibl>
 						Settlement Excavations at Borgo Le Ferriere - Satricum, 2. The Campaigns 1983, 1985 and 1987, a cura di M. Maaskant-Kleibrink, Groningen 1992, p. 107, con facsimile (G. Colonna) (1)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Stud. Etr., 58, 1992, pp. 316-320, con foto e facsimile (A.J. Beijer - G. Colonna) - AE 1992 (2)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1992, 0265 (3)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Riv. Filol. Istr. Class., 121, 1993, pp. 285-288 (C. De Simone) - AE 1993 (4)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 1993, 0450 (5)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						XI Congresso Internazionale di Epigrafia Greca e Latina. Atti I, Roma 1999, p. 387, nr. 10 (H. Solin) (6)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						M. Hartmann, Die frühlateinischen Inschriften und ihre Datierung, Bremen 2005, pp. 25-26, nr. 2.1.9, con foto e facsimile (7)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Satricum. Trenta anni di scavi olandesi, a cura di M. Gnade, Amsterdam 2007, pp. 99 e 194 nr. 632, con facsimile a p. 195 (G. Colonna) (8)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Theodor Mommsen e il Lazio antico. Giornata di Studi in memoria dell'illustre storico, epigrafista e giurista (Terracina, 3 aprile 2004), Roma 2009, p. 115, nr. 3 e Tab. 1, nr. 3 (D.F. Maras) (9)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Il Lazio dai Colli Albani ai Monti Lepini tra preistoria ed età moderna, Roma 2009, p. 435, A.3 (D.F. Maras) (10)
 					</bibl> 
 			
@@ -169,20 +168,22 @@
 				</div>
 				
 				
-				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
+				<!--
+				[- - -]ADEVẠ[- - -]
+				--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
 				<gap reason="lost" extent="unknown" unit="character"/>ADEV<unclear>A</unclear><gap reason="lost" extent="unknown" unit="character"/>
 				</ab></div>
 
-				<div type="apparatus" part="N" org="uniform" sample="complete">
+				<div type="apparatus">
 		
-					<p part="N">
+					<p>
 						Textus secundum (1)-(3) e (8)-(10), aliter (4)-(5), contultit ad imaginem Nonnis a. 2013.&lt;br&gt;[---]ADEXA[---] (4)-(5)&lt;br&gt;De nomine mulieris ([Tit]a Deua) cogitat G. Colonna (8)&lt;br&gt;Iscrizione di possesso (?) graffita (in direzione destrorsa e scriptio continua) intorno alla base di un'anforetta del tipo a spirali in impasto.
 					</p> 
 			
 				</div>
 			
-				<div type="commentary" part="N" org="uniform" sample="complete">
-				<p part="N"/>
+				<div type="commentary">
+				<p/>
 				</div>
 
 			</body>

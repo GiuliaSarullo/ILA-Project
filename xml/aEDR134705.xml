@@ -1,29 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
-		<teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
 			<fileDesc>
 				<titleStmt>
 				<title>EDR134705</title>
 				</titleStmt>  
 				<publicationStmt>
 				<authority>Epigraphic Database Roma</authority>
-				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR134705</idno>
-				<idno type="URI"/>
-				<availability default="false" status="unknown">
-					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR134705</idno>
+				<idno type="TM"/>
+				<idno type="localID">EDR134705</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Epigraphic Database Roma</licence>
 				</availability>
 				</publicationStmt>
-				<sourceDesc default="false">
+				<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country>
-						<placeName type="modernCountry" instant="false" full="yes">Italia</placeName>
-						</country>
-						<region>
-						<placeName/>
-						</region>
-						<settlement>
-						<placeName instant="false" full="yes">Le Ferriere (Latina)</placeName>                     
-						</settlement>
+						
+						
+						
 						<repository>Le Ferriere (Latina), magazzini, inv. P863-A2002</repository>
 						<collection/>
 						<idno/>
@@ -33,14 +30,14 @@
 						<supportDesc>
 							<support>
 								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/305">vas, culina</objectType>
-								<material>creta</material>
-								<p part="N"/>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/130">creta</material>
+								<p/>
 								<dimensions unit="cm">
 								<height>12.00</height>
 								<width>8.00</width>
 								<depth>3.50</depth>
 								</dimensions>
-								<rs type="decoration"/>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="en">no decoration</rs>
 								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15">tit. fragmentum</rs>
 							</support>
 						</supportDesc>
@@ -59,22 +56,22 @@
 					</physDesc>
 					
 					<history>
-						<origin instant="false">
+						<origin>
 
-						
-						<origDate notBefore-custom="-580" notAfter-custom="-530" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">-580 BC - -580 BC</origDate>
+						<origPlace><placeName type="provinceItalicRegion">Latium et Campania cum insulis (Regio I)</placeName><placeName>Antium - Satricum</placeName></origPlace>
+						<origDate notBefore-custom="-0580" notAfter-custom="-0530" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">-580 BC - -530 BC</origDate>
 						
 						</origin>
 						<provenance type="found"> 
-						<placeName instant="false" full="yes">Le Ferriere (Latina), acropoli, edificio V (area NE del tempio di Mater Matuta), in giacitura secondaria (a. 2002)</placeName>
-						</provenance>
+						<placeName>Le Ferriere (Latina), acropoli, edificio V (area NE del tempio di Mater Matuta), in giacitura secondaria (a. 2002)</placeName>
+						<placeName>Le Ferriere (Latina)</placeName><placeName type="modern_region"/><placeName type="modernCountry">Italia</placeName></provenance>
 					</history>
 				</msDesc>
 				</sourceDesc>
 			</fileDesc>
 				
 			<encodingDesc>
-				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
 				<classDecl>
 				<taxonomy>
 					<category xml:id="representation">
@@ -84,13 +81,13 @@
 				</classDecl>
 			</encodingDesc>
 			<profileDesc>
-				<textClass default="false">
+				<textClass>
 		<keywords>
 		<term>tit. in artis operib. inscr.?</term>
 		</keywords>
 		</textClass>
 
-				<langUsage default="false">
+				<langUsage>
 				<language ident="ar">Arabic</language>
 				<language ident="en">English</language>
 				<language ident="fr">French</language>
@@ -104,8 +101,8 @@
 				<language ident="sp">Spanish</language>
 				</langUsage>
 			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
-			<revisionDesc status="draft">
-			<change when="1970-01-01" who="David2 NONNIS" status="draft">
+			<revisionDesc>
+			<change when="2014-06-24" who="David2 NONNIS">
 			</change>
 
 			</revisionDesc>
@@ -114,7 +111,9 @@
 			<facsimile>
 			
 					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134705.jpg">
-						<desc>Frammento di dolio con resti di iscrizione arcaica</desc>
+					<desc>Frammento di dolio con resti di iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
 					</graphic>
 				
 			</facsimile>
@@ -122,26 +121,26 @@
 		<text>
 			<body>
 					
-				<div type="bibliography" part="N" org="uniform" sample="complete">
-				<listBibl default="false">
+				<div type="bibliography">
+				<listBibl>
 		
-					<bibl default="false" status="draft">
+					<bibl>
 						Arch. Class., 54, 2003, pp. 1-4, 13 e 18, con disegno e foto a figg. 2a-2b (M. Gnade - G. Colonna) - AE 2003 (1)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						AE 2003, 0297b (2)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Satricum. Trenta anni di scavi olandesi, a cura di M. Gnade, Amsterdam 2007, p. 99 e p. 194, nr. 635, con foto a p. 195 (G. Colonna) (3)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Il Lazio dai Colli Albani ai Monti Lepini tra preistoria ed età moderna, Roma 2009, p. 435, A.7b (D.F. Maras) (4)
 					</bibl> 
 			
-					<bibl default="false" status="draft">
+					<bibl>
 						Latin Linguistics Today. Akten des 15. Internationalen Kolloquiums zur Lateinischen Linguistik (Innsbruck, 4.-9. April 2009), hrsg. von P. Anreiter - M. Kienpointner, Innsbruck 2010, pp. 19 e 28-29, con foto e facsimile a p. 19, Abb. 3 (B. Adamik) (5)
 					</bibl> 
 			
@@ -149,20 +148,22 @@
 				</div>
 				
 				
-				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
-				<supplied reason="lost" cert="low">---</supplied> <choice><corr>Loucios</corr><sic>Lucius</sic></choice> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+				<!--
+				[- - -?] Loucios (:Lucius) +[- - -]
+				--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+				<gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".." cert="low"/></gap> <choice><sic>Loucios</sic><corr>Lucius</corr></choice> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 				</ab></div>
 
-				<div type="apparatus" part="N" org="uniform" sample="complete">
+				<div type="apparatus">
 		
-					<p part="N">
+					<p>
 						Textus secudum (1)-(5), contulit ad imaginem Nonnis a. 2013.&lt;br&gt;v. 1, in fine: fortasse C[---] (1)-(2). Per ulteriori proposte di integrazione, che presuppongono una estensione maggiore del testo cfr. (5)&lt;br&gt;Formula onomastica (bimembre?) incisa, in direzione destrorsa (e forse in scriptio continua), in corrispondenza della spalla di un dolio; per (1),(3) e (5) potrebbe trattarsi della firma dell'artigiano che ha realizzato il vaso.&lt;br&gt;Forse sullo stesso dolio (o su un altro affine dal medesimo contesto) era incisa anche un'altra iscrizione a crudo (EDR134636). Lo stesso scavo ha inoltre restituito un altro frammento di dolio recante un numerale (EDR134701).
 					</p> 
 			
 				</div>
 			
-				<div type="commentary" part="N" org="uniform" sample="complete">
-				<p part="N"/>
+				<div type="commentary">
+				<p/>
 				</div>
 
 			</body>

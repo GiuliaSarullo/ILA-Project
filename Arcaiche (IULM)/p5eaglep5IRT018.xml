@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT018" xml:lang="en">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Antoninus Pius by Sabratha</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="URI">http://irt.kcl.ac.uk/irt2009/IRT018.html</idno>
+            <availability default="false" status="unknown">
+               <licence target="http://creativecommons.org/licenses/by/2.0/uk/">All reuse or
+                  distribution of this work must contain somewhere a link back to the URL
+                  http://irt.kcl.ac.uk/</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl xml:id="irt1952" default="false" status="draft">
+               <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>,
+                  <pubPlace>Rome</pubPlace>: <publisher>British School at Rome</publisher>,
+                  <date instant="false">1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName type="modern" instant="false" full="yes">Libya</placeName>
+                  </country>
+                  <region>
+                     <placeName type="modern" ref="http://www.geonames.org/2208578/marsa-zawaghah.html" instant="false" full="yes">Marsa
+                        Zawaghah</placeName>
+                  </region>
+                  <settlement>
+                     <placeName instant="false" full="yes">Findspot</placeName>
+                  </settlement>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>panel</objectType>
+                           <p part="N">Fragment from the lower part of a <material ref="http://www.eagle-network.eu/voc/material/lod/48">marble</material>
+                              <rs type="objectType">panel</rs> (<dimensions>
+                                 <width>0.17</width>
+                                 <height>0.22</height>
+                                 <depth>0.025</depth>
+                              </dimensions>, no edges surviving). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century capitals: lines 3- 4, <height unit="metre">0.04</height>; line 5, <height unit="metre">0.035</height>; line 6,
+                           <height unit="metre">0.03</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <p part="N"> Text constituted from Transcription (Reynolds, Ward-Perkins) </p>
+                     
+                     <origDate notBefore-custom="0143" notAfter-custom="0143" instant="false">circa A.D. 143
+                        (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent default="false">
+                        <event type="found" instant="false">
+                           <p part="N">
+                              <placeName type="ancientFindspot" ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2" key="db659" instant="false" full="yes">Sabratha</placeName>: <rs type="monuList" key="db853">Office Baths</rs> (Reg. V), re-used in the S Caldarium.</p>
+                        </event>
+                        <event type="observed" instant="false">
+                           <p part="N">Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">Dedication</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-05-20" who="PML" status="draft">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc
+            RNG schema v. 8), checked conformance to EALGE Metadata Model, added licence statements
+            to figures and full URLs.</change>
+         <change when="2008-09-09" who="ZA" status="draft">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV" status="draft">Added Figures</change>
+         <change when="2009-08-24" who="RV" status="draft">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="0023" url="http://images.cch.kcl.ac.uk/irt/liv/full/0023.jpg">
+         <desc> Ward-Perkins Archive, BSR (BSR 48.XX.11) <ref type="licence" target="http://creativecommons.org/licenses/by-sa/3.0/">The British School at Rome:
+               CC-By-SA</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <div type="bibliography" part="N" org="uniform" sample="complete">
+            <head>Bibliography</head>
+            <p part="N">Not previously published.</p>
+         </div>
+
+
+
+         <div type="edition" xml:lang="la" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <head xml:lang="en">Text</head>
+            <ab part="N">
+               <lb n="1"/>
+               <persName type="emperor" instant="false" full="yes">
+                  <w lemma="imperator" part="N">
+                     <supplied reason="lost" instant="false">
+                        <expan instant="false">
+                           <abbr>Imp</abbr>
+                           <ex instant="false">eratori</ex>
+                        </expan>
+                     </supplied>
+                  </w>
+                  <name type="cognomen" nymRef="Caesar" full="yes" instant="false">
+                     <supplied reason="lost" instant="false">
+                        <expan instant="false">
+                           <abbr>Caes</abbr>
+                           <ex instant="false">ari</ex>
+                        </expan>
+                     </supplied>
+                  </name>
+                  <persName type="emperor" instant="false" full="yes">
+                     <w lemma="diuus" part="N">
+                        <supplied reason="lost" instant="false">
+                           <w lemma="diuus" part="N">diui</w>
+                        </supplied>
+                     </w>
+                     <name type="cognomen" nymRef="Hadrianus" full="yes" instant="false">
+                        <supplied reason="lost" instant="false">Hadriani</supplied>
+                     </name>
+                  </persName>
+                  <w lemma="filius" part="N">
+                     <supplied reason="lost" instant="false">filio</supplied>
+                  </w>
+                  <lb n="2"/>
+                  <persName type="emperor" instant="false" full="yes">
+                     <supplied reason="lost" instant="false">
+                        <w lemma="diuus" part="N">diui</w>
+                        <name type="cognomen" nymRef="Traianus" full="yes" instant="false">Traiani</name>
+                     </supplied>
+                     <name type="cognomen" nymRef="Parthicus" full="yes" instant="false"><supplied reason="lost" instant="false">P</supplied>arthic<supplied reason="lost" instant="false">i</supplied></name>
+                  </persName>
+                  <supplied reason="lost" instant="false">
+                     <w lemma="nepos" part="N">
+                        <expan instant="false">
+                           <abbr>nep</abbr>
+                           <ex instant="false">oti</ex>
+                        </expan>
+                     </w>
+                  </supplied>
+                  <lb n="3"/>
+                  <name type="praenomen" nymRef="Titus" full="yes" instant="false">
+                     <supplied reason="lost" instant="false">
+                        <expan instant="false">
+                           <abbr>T</abbr>
+                           <ex instant="false">ito</ex>
+                        </expan>
+                     </supplied>
+                  </name>
+                  <name type="gentilicium" nymRef="Aelius" full="yes" instant="false"><supplied reason="lost" instant="false">Ae</supplied>lio</name>
+                  <lb n="4"/>
+                  <name type="cognomen" nymRef="Hadrianus" full="yes" instant="false">
+                     <supplied reason="lost" instant="false">Hadriano</supplied>
+                  </name>
+                  <name type="gentilicium" nymRef="Antoninus" full="yes" instant="false">Anton<supplied reason="lost" instant="false">ino</supplied></name>
+                  <lb n="5"/>
+                  <name type="cognomen" nymRef="Augustus" full="yes" instant="false">
+                     <supplied reason="lost" instant="false">
+                        <expan instant="false">
+                           <abbr>Aug</abbr>
+                           <ex instant="false">usto</ex>
+                        </expan>
+                     </supplied>
+                  </name>
+                  <name type="cognomen" nymRef="Pius" full="yes" instant="false">
+                     <supplied reason="lost" instant="false">Pio</supplied>
+                  </name>
+               </persName>
+               <supplied reason="lost" instant="false">
+                  <w lemma="tribunicius" part="N">
+                     <expan instant="false">
+                        <abbr>trib</abbr>
+                        <ex instant="false">unicia</ex>
+                     </expan>
+                  </w>
+                  <w lemma="potestas" part="N">
+                     <expan instant="false">
+                        <abbr>pot</abbr>
+                        <ex instant="false">estate</ex>
+                     </expan>
+                  </w>
+               </supplied>
+               <num><gap reason="lost" atLeast="1" atMost="3" instant="false"/>II</num>
+               <w lemma="imperator" part="N">
+                  <expan instant="false">
+                     <abbr>imp</abbr>
+                     <ex instant="false">eratori</ex>
+                  </expan>
+               </w>
+               <num value="2">II</num>
+               <w lemma="consul" part="N">
+                  <expan instant="false">
+                     <abbr>c</abbr>
+                     <supplied reason="lost" instant="false">
+                        <abbr>o</abbr>
+                        <ex instant="false">n</ex>
+                        <abbr>s</abbr>
+                        <ex instant="false">uli</ex>
+                     </supplied>
+                  </expan>
+               </w>
+               <num>
+                  <gap reason="lost" atLeast="1" atMost="4" unit="character" instant="false"/>
+               </num>
+               <supplied reason="lost" instant="false">
+                  <w lemma="pater" part="N">
+                     <expan instant="false">
+                        <abbr>p</abbr>
+                        <ex instant="false">atri</ex>
+                     </expan>
+                  </w>
+                  <w lemma="patria" part="N">
+                     <expan instant="false">
+                        <abbr>p</abbr>
+                        <ex instant="false">atriae</ex>
+                     </expan>
+                  </w>
+               </supplied>
+               <lb n="6"/>
+               <placeName type="ethnic" nymRef="Sabrathensis" instant="false" full="yes"><supplied reason="lost" instant="false">Sabrathense</supplied>s</placeName>
+               <w lemma="publice" part="N">publi<supplied reason="lost" instant="false">ce</supplied></w>
+            </ab>
+         </div>
+
+
+
+         <div type="translation" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <head>Translation</head>
+            <p part="N"><supplied reason="lost" instant="false">To Emperor Caesar, son of deified Hadrian, grandson of
+                  deified Trajan, victor</supplied> in Parthia, <supplied reason="lost" instant="false">Titus
+                  Ae</supplied>lius <supplied reason="lost" instant="false">Hadrianus</supplied> Antoninus <supplied reason="lost" instant="false">Augustus, Pius, holding tribunician power for the . . .
+                  time</supplied>, acclaimed victor twice, c<supplied reason="lost" instant="false">onsul . . .
+                  times, father of the country</supplied>; the people of Sabratha <supplied reason="subaudible" instant="false">set this up</supplied> publicly.</p>
+         </div>
+
+         <div type="commentary" part="N" org="uniform" sample="complete">
+            <head>Commentary</head>
+            <p part="N">l. 5. Antoninus Pius was <foreign xml:lang="la">Imp. II</foreign> c. 143.</p>
+         </div>
+
+
+      </body>
+   </text>
+</TEI>
