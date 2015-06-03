@@ -122,11 +122,11 @@
 				<language ident="sp">Spanish</language>
 				</langUsage>
 			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
-			<!-- <revisionDesc>
+			 <revisionDesc>
 			<change when="2015-05-21" who="Giulia Sarullo">
 			</change>
 
-			</revisionDesc> -->
+			</revisionDesc> 
 		</teiHeader>
 		
 			<facsimile>
@@ -429,7 +429,7 @@
 						<citedRange>210-211</citedRange>
 					</bibl>
 					<bibl>
-						<ptr target="Biblio.xml#Colonna1995"/>
+						<ptr target="Biblio.xml#Colonna1995b"/>
 						<citedRange>350-351</citedRange>
 					</bibl>
 					<bibl>
@@ -491,7 +491,7 @@
 						<citedRange>200-212</citedRange>
 					</bibl>
 					<bibl>
-						<ptr target="Biblio.xml#Meiser1998"/>
+						<ptr target="Biblio.xml#Meiser1999"/>
 						<citedRange>4, 127, 218</citedRange>
 					</bibl>
 					<!-- <bibl>

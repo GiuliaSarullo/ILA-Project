@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="15.2">
+<project version="17.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options/>
     </meta>
     <projectTree name="ila.xpr">
         <folder path="xml/"/>
+        <file name="../example-p5-xsltpietro/htm-tpl-struct-ila.xsl"/>
     </projectTree>
 </project>
