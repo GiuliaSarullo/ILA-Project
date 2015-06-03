@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Acqua Acetosa Laurentina 3 - Iscrizione su brocchetta</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://www.ila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM"> </idno>
+				<idno type="localID">AAL3</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Roma</settlement>
+						<repository>Museo Nazionale Romano alle Terme di Diocleziano</repository>
+						<idno>inv. 278627</idno>		
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								<objectType ref="http://www.eagle-network.eu/voc/decor/lod/327.html">Brocchetta</objectType> di <material ref="http://www.eagle-network.eu/voc/material/lod/131.html">argilla</material>
+									chiara acroma, a bocca tonda e ansa sormontante.
+								<dimensions unit="cm"></dimensions>
+                                Altezza <height unit="cm">10.2</height>, con l'ansa <height unit="cm">11.9</height>.                                         
+                                <lb/>Diametro della bocca <dim type="diameter" unit="cm">5.8</dim>; diametro pancia <dim type="diameter" unit="cm">8</dim>; 
+									diametro del piede <dim type="diameter" unit="cm">4.6</dim>.
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/11.html">mutilo</rs> <!-- Aggiungere questa traduzione -->.</p>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/9" key="scariphatis">graffita</rs> dopo la cottura
+								sotto l'orlo.
+								<lb/>Ductus: destrorso.
+                                <lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="0.4" atMost="0.7"/>.
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa Laurentina</placeName>.
+						</origPlace>
+						<origDate notBefore="-0525" notAfter="-0475" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Fine del VI - prima metà del V secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1978" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1978</date>, nel pozzo n. 1 di <placeName ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa</placeName> sulla via Laurentina.
+							    </p>
+						</provenance>
+						<provenance type="observed" when="2009" subtype="autopsied">
+							Museo Nazionale Romano alle Terme di Diocleziano.
+						</provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>possesso?</term> <!-- Manca il ref -->
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/79.html">dedica?</term>
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2015-05-29" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+						
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134636-1.jpg">
+					<desc>dolio con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                <head>Trascrizione diplomatica</head>
+                <ab>
+                 <lb n="1" rend="left-to-right"/><persName>MANIAS</persName> 
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                
+            </div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>M: a quattro tratti inclinati.
+                    <lb/>A: asta verticale su cui si innesta al vertice un'asta obliqua; traversa ascendente nel senso di scrittura.
+                    <lb/>N: a tratti inclinati e sfalsati in altezza.  
+                    <lb/>I: asta verticale lunga.                   
+                    <lb/>S: angoloso, a tre tratti, di cui l'ultimo inciso separatamente dal secondo.
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+				
+					<listBibl>
+					<!-- <bibl>
+ 							<ptr target="biblio.xml#jmr1971a"/>
+ 							<citedRange>3</citedRange>
+						</bibl> -->
+		
+						<bibl>
+						Arch. Class., 54, 2003, pp. 1-21, con disegni e foto a figg. 1, 5 e 11-15 (M. Gnade - G. Colonna) - AE 2003 (1)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

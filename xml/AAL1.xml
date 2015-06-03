@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Acqua Acetosa Laurentina 1 - Iscrizione su lastra</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://www.ila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM"> </idno>
+				<idno type="localID">AAL1</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Roma</settlement>
+						<repository>Museo Nazionale Romano alle Terme di Diocleziano</repository>
+						<idno>inv. 237427</idno>		
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								Frammento di <objectType>lastra</objectType> di rivestimento di <material ref="http://www.eagle-network.eu/voc/material/lod/130">impasto</material>
+									rosso di cui resta parte della cornice e parte della parete.
+								<dimensions unit="cm">
+								<width unit="cm">17.2</width>
+                                <height unit="cm">9,5</height>
+								<depth unit="cm" atLeast="2.5" atMost="5"/>
+                                </dimensions>
+								La parte iscritta è lunga <width unit="cm">11.5</width>.
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15.html">frammento</rs> <!-- Aggiungere questa traduzione -->.</p>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/14" key="stilo">incisa</rs> prima della cottura
+								sulla parte della parete sotto la cornice.
+								<lb/>Ductus: sinistrorso.
+                                <lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="2" atMost="3"/>.
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa Laurentina</placeName>.
+						</origPlace>
+						<origDate notBefore="-0599" notAfter="-0550" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Prima metà del VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1978" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1978</date>, nella zona pianeggiante a 
+							    	S/SE dell’altura dell’abitato arcaico di <placeName ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa</placeName> sulla via Laurentina.
+							    </p>
+						</provenance>
+						<provenance type="observed" when="2009" subtype="autopsied">
+							Museo Nazionale Romano alle Terme di Diocleziano.
+						</provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>???</term> <!-- aggiungere tipologia testuale -->
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2015-05-24" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+						
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134636-1.jpg">
+					<desc>dolio con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                <head>Trascrizione diplomatica</head>
+                <ab>
+                     <lb n="1" rend="right-to-left"/><gap reason="lost" extent="unknown"/><gap reason="illegible" unit="character" quantity="1"/><w>TARTIS</w><w>P
+                	<unclear reason="damage">O</unclear></w>
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                <p>
+                    <app loc="1">
+                        <note>
+                            Resta un piccolo tratto leggermente obliquo.
+                        </note>
+                    </app>
+                	<app loc="2">
+                        <note>
+                            Sulla rottura, resta un semicerchio (aperto?): O?
+                        </note>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Colonna"><supplied reason="lost" resp="Colonna">E</supplied>TARTISPO</rdg>
+                    </app>
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>T: la prima con tratto orizzontale perpendicolare e non tangente l'asta verticale;
+                	la seconda con tratto ascendente nel senso della scrittura.
+                	<lb/>A: con traversa ascendente nel senso della scrittura che taglia l'asta verticale destra.
+                	<lb/>R: in forma di rho tracciato con unico tratto.
+                	<lb/>I: asta verticale.
+                	<lb/>S: a tre tratti, retrogrado.
+                	<lb/>P: a uncino aperto, tracciato in due fasi, prima l'asta verticale, poi il tratto curvo.
+                	<lb/>O: di misura inferiore rispetto alle altre lettere.
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+				
+					<listBibl>
+					<!-- <bibl>
+ 							<ptr target="biblio.xml#jmr1971a"/>
+ 							<citedRange>3</citedRange>
+						</bibl> -->
+		
+						<bibl>
+						Arch. Class., 54, 2003, pp. 1-21, con disegni e foto a figg. 1, 5 e 11-15 (M. Gnade - G. Colonna) - AE 2003 (1)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

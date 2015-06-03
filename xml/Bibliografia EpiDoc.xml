@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Exported from Zotero</title>
+        </titleStmt><publicationStmt>
+            <p>unpublished</p>
+        </publicationStmt>
+        <sourceDesc>
+            <p>Generated from Zotero database</p>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <biblStruct type="bookSection" xml:id="Davies2012">
+                    <analytic>
+                        <title level="a">Latin Epigraphy and the IT Revolution</title>
+                        <author>
+                            <forename>John</forename>
+                            <surname>Bodel</surname>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Epigraphy and the historical sciences</title>
+                        <editor><forename>John K</forename><surname>Davies</surname></editor>
+                        <editor><forename>J. J</forename><surname>Wilkes</surname></editor>
+                        <imprint><pubPlace>Oxford</pubPlace>
+                            <biblScope type="pp">275-296</biblScope>
+                            <publisher>Oxford University Press</publisher>
+                            <date>2012</date></imprint>
+                    </monogr><idno type="ISBN">9780197265062  0197265065</idno>
+                </biblStruct>
+                <biblStruct type="bookSection" xml:id="Evangelisti2009">
+                    <analytic>
+                        <title level="a">EDR: History, Purpose, and Structure</title>
+                        <author><forename>Silvia</forename><surname>Evangelisti</surname></author>
+                    </analytic>
+                    <monogr><title level="m">Latin on Stone: Epigraphic Research and Electronic Archives</title>
+                        <editor><forename>Francisca</forename><surname>Feraudi-Gruenais</surname></editor>
+                        <imprint><pubPlace>Lanham</pubPlace>
+                            <biblScope type="pp">119-134</biblScope>
+                            <publisher>Lexington Books</publisher>
+                            <date>2009</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Burnard">
+                    <monogr><title level="m">TEI P5:Guidelines for Electronic Text  Encoding and Interchange</title>
+                        <editor><forename>Lou</forename><surname>Burnard</surname></editor><editor>
+                            <name>Bauman</name></editor>
+                        <imprint>
+                            <date></date>
+                        </imprint>
+                    </monogr>
+                    <note type="url">http://www.tei-c.org/release/doc/tei-p5-doc/en/html/</note>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Elliotta">
+                    <monogr><title level="m">EpiDoc: Epigraphic Documents in TEI XML. Online material</title>
+                    <author><forename>Tom</forename><surname>Elliott</surname></author>
+                    <author><forename>Gabriel</forename><surname>Bodard</surname></author>
+                    <author><forename>Hugh</forename><surname>Cayless</surname></author>
+                    <author><name>et al.</name></author>
+                        <imprint>
+                            <date></date>
+                        </imprint>
+                    </monogr>
+                    <note type="url">http://epidoc.sf.net</note>
+                </biblStruct>
+                <biblStruct type="webpage" xml:id="Elliottb">
+                    <monogr><title level="m">Conformance and Interoperability: What it means to be EpiDoc</title>
+                        <author><forename>Tom</forename><surname>Elliott</surname></author>
+                        <imprint><!--  no publisher, publication date or place given  -->
+                           <date></date>
+                        </imprint>
+                    </monogr>
+                    <note type="accessed">2015-04-08 16:23:58</note>
+                    <note type="url">http://www.stoa.org/epidoc/gl/5/conformance.html</note>
+                    </biblStruct>
+                <biblStruct type="webpage" xml:id="Elliottc">
+                    <monogr><title level="m">EpiDoc Guidelines: Ancient documents in TEI XML (Version 8)</title>
+                        <author><forename>Tom</forename><surname>Elliott</surname></author>
+                        <author><forename>Gabriel</forename><surname>Bodard</surname></author>
+                        <author><forename>Elli</forename><surname>Mylonas</surname></author>
+                        <author><forename>Simona</forename><surname>Stoyanova</surname></author>
+                        <author><forename>Charlotte</forename><surname>Tupman</surname></author>
+                        <author><name>et al.</name></author>
+                        <imprint>
+                           <date></date>
+                        </imprint>
+                    </monogr>
+                    <note type="url">http://www.stoa.org/epidoc/gl/latest/</note>
+                </biblStruct>
+                <biblStruct type="conferencePaper" xml:id="Palazzolo2012">
+                    <analytic>
+                        <title level="a">Esperienze diverse e complementari nel trattamento digitale delle fonti epigrafiche: il caso di EAGLE ed EpiDoc</title>
+                        <author>
+                            <forename>Antonio Enrico</forename><surname>Felle</surname></author>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Diritto romano e scienze antichistiche nell'era digitale: convegno di studio (Firenze, 12-13 settembre 2011, Altana di Palazzo Strozzi)</title>
+                        <editor><forename>Nicola</forename><surname>Palazzolo</surname></editor>
+                        <imprint><pubPlace>Torino</pubPlace>
+                            <biblScope type="pp">117-130</biblScope>
+                            <publisher>Giappichelli</publisher>
+                            <date>2012</date></imprint>
+                    </monogr>
+                    <series><title level="s">Collectanea Graeco-Romana. Studi e strumenti per la ricerca storico-giuridica 10</title>
+                    </series>
+                    <idno type="ISBN">9788834828007 8834828003</idno>
+                </biblStruct>
+                <biblStruct type="bookSection" xml:id="Burnard2006">
+                    <analytic><title level="a">Epigraphy</title>
+                        <author><name>Mahoney</name></author>
+                    </analytic>
+                    <monogr><title level="m">Electronic textual editing</title>
+                        <editor><forename>Lou</forename><surname>Burnard</surname></editor>
+                        <editor><forename>Katherine</forename><surname>O'Brien O'Keeffe</surname></editor>
+                        <editor><forename>John</forename><surname>Unsworth</surname></editor>
+                        <imprint><pubPlace>New York</pubPlace>
+                            <biblScope type="pp">224-237</biblScope>
+                            <publisher>Modern Language Association of America</publisher>
+                            <date>2006</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="ISBN">9780873529709 0873529707 9780873529716 0873529715</idno>
+                </biblStruct>
+                <biblStruct type="bookSection" xml:id="Cotticelli-Kurras2011">
+                    <analytic><title level="a">L’edizione digitale dei testi epigrafici come strumento di ricerca. 
+                        III The Encoding of the Archaic Latin Inscriptions</title>
+                        <author><forename>Giulia</forename><surname>Sarullo</surname></author>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Linguistica e filologia digitale: aspetti e progetti</title>
+                        <editor><forename>Paola</forename><surname>Cotticelli-Kurras</surname></editor>
+                        <imprint><pubPlace>Alessandria</pubPlace>
+                            <biblScope type="pp">157-169</biblScope>
+                            <publisher>Edizioni dell'Orso</publisher>
+                            <date>2011</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="ISBN">9788862742634 8862742630</idno>
+                </biblStruct>
+                <biblStruct type="journalArticle" xml:id="Tissoni2008">
+                    <analytic><title level="a">EpiDoc e l’epigrafia latina sul web. Il progetto 
+                        Iscrizioni Latine Arcaiche</title>
+                        <author><forename>Francesco</forename><surname>Tissoni</surname></author>
+                    </analytic>
+                    <monogr><title level="j">ACME</title>
+                        <imprint>
+                            <biblScope type="vol">LXI</biblScope>
+                            <biblScope type="issue">III</biblScope>
+                            <biblScope type="pp">29-49</biblScope>
+                            <date>2008</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="conferencePaper" xml:id="Anelli2009">
+                    <analytic><title level="a">Iscrizioni Latine Arcaiche – A Digital Corpus of the 
+                        Archaic Latin Inscriptions</title>
+                        <author><forename>Manuela</forename><surname>Anelli</surname></author>
+                        <author><forename>Marta</forename><surname>Muscariello</surname></author>
+                    </analytic>
+                    <monogr><title level="m">Lingue, ethnos e popolazioni: evidenze linguistiche, 
+                        biologiche e culturali, Atti del XXXII Convegno della Società Italiana di 
+                        Glottologia (Verona, 25- 27 ottobre 2007)</title>
+                        <editor><forename>Paola</forename><surname>Cotticelli-Kurras</surname></editor>
+                        <editor><forename>Giorgio</forename><surname>Graffi</surname></editor>
+                        <imprint><pubPlace>Roma</pubPlace>
+                            <biblScope type="pp">157-160</biblScope>
+                            <publisher>Il Calamo</publisher>
+                            <date>2009</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Burnard2012">
+                    <monogr><title level="m">TEI Lite: Encoding for Interchange: an introduction to the
+                        TEI - Final revised for TEI P5 release</title>
+                        <author><forename>Lou</forename><surname>Burnard</surname></author>
+                        <author><forename>Michael</forename><surname>Sperberg McQueen</surname></author>
+                        <imprint>
+                            <date>2012</date>
+                            <note type="url">http://www.tei-c.org/release/doc/tei-p5-exemplars/pdf/tei_lite.doc.pdf</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="bookSection" xml:id="Bodard2009">
+                    <analytic><title level="a">EpiDoc: Epigraphic documents in XML for publication and 
+                        interchange</title>
+                        <author><forename>Gabriel</forename><surname>Bodard</surname></author>
+                    </analytic>
+                    <monogr><title level="m">Latin on Stone: Epigraphic Research and Electronic 
+                        Archives</title>
+                        <editor><forename>Francisca</forename><surname>Feraudi-Gruenais</surname></editor>
+                        <imprint><pubPlace>Lanham</pubPlace>
+                            <biblScope type="pp">1–17</biblScope>
+                            <publisher>Lexington Books</publisher>
+                            <date>2009</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Feraudi-Gruenais2009">
+                    <monogr><title level="m">Latin on Stone: Epigraphic Research and Electronic 
+                        Archives</title>
+                        <editor><forename>Francisca</forename><surname>Feraudi-Gruenais</surname></editor>
+                        <imprint><pubPlace>Lanham</pubPlace><publisher>Lexington Books</publisher>
+                            <date>2009</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="journalArticle" xml:id="Muscariello2008">
+                    <analytic><title level="a">Iscrizioni Latine Arcaiche: a Digital Corpus of the 
+                        Archaic Latin Inscriptions</title>
+                        <author><forename>Marta</forename><surname>Muscariello</surname></author>
+                    </analytic><monogr><title level="j">Alessandria - Rivista di Glottologia</title>
+                        <imprint><biblScope type="vol">2</biblScope>
+                            <biblScope type="pp">213-217</biblScope>
+                            <date>2008</date></imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

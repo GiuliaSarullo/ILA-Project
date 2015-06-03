@@ -1,0 +1,581 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/epidoc/code/!svn/ver/2271/trunk/example-p5-xslt
+END
+txt-teispace.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teispace.xsl
+END
+txt-tpl-sqbrackets.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/epidoc/code/!svn/ver/1730/trunk/example-p5-xslt/txt-tpl-sqbrackets.xsl
+END
+txt-teilb.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2183/trunk/example-p5-xslt/txt-teilb.xsl
+END
+txt-teidivedition.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teidivedition.xsl
+END
+htm-teisupplied.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/htm-teisupplied.xsl
+END
+txt-teilgandl.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teilgandl.xsl
+END
+htm-tpl-apparatus.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/epidoc/code/!svn/ver/2267/trunk/example-p5-xslt/htm-tpl-apparatus.xsl
+END
+htm-teispace.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teispace.xsl
+END
+global-parameters.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/epidoc/code/!svn/ver/1425/trunk/example-p5-xslt/global-parameters.css
+END
+odf-tpl-metadata.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/odf-tpl-metadata.xsl
+END
+tpl-reasonlost.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/epidoc/code/!svn/ver/1801/trunk/example-p5-xslt/tpl-reasonlost.xsl
+END
+teiabbrandexpan.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teiabbrandexpan.xsl
+END
+htm-tpl-struct-hgv.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-tpl-struct-hgv.xsl
+END
+teiunclear.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teiunclear.xsl
+END
+global-parameters.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/global-parameters.xml
+END
+htm-teidivapparatus.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/epidoc/code/!svn/ver/2246/trunk/example-p5-xslt/htm-teidivapparatus.xsl
+END
+teichoice.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teichoice.xsl
+END
+htm-teinote.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/epidoc/code/!svn/ver/2256/trunk/example-p5-xslt/htm-teinote.xsl
+END
+htm-teiterm.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teiterm.xsl
+END
+txt-teiapp.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teiapp.xsl
+END
+teimilestone.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teimilestone.xsl
+END
+txt-teiab.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2179/trunk/example-p5-xslt/txt-teiab.xsl
+END
+teiaddanddel.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teiaddanddel.xsl
+END
+txt-teisupplied.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-teisupplied.xsl
+END
+htm-tpl-license.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/htm-tpl-license.xsl
+END
+htm-teilistanditem.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/htm-teilistanditem.xsl
+END
+htm-tpl-cssandscripts.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-tpl-cssandscripts.xsl
+END
+teiref.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/epidoc/code/!svn/ver/2161/trunk/example-p5-xslt/teiref.xsl
+END
+txt-teimilestone.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teimilestone.xsl
+END
+htm-teiforeign.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/htm-teiforeign.xsl
+END
+tpl-text.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/epidoc/code/!svn/ver/2185/trunk/example-p5-xslt/tpl-text.xsl
+END
+htm-tpl-structure.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/epidoc/code/!svn/ver/2249/trunk/example-p5-xslt/htm-tpl-structure.xsl
+END
+txt-teinote.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-teinote.xsl
+END
+htm-tpl-struct-iospe.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/epidoc/code/!svn/ver/2207/trunk/example-p5-xslt/htm-tpl-struct-iospe.xsl
+END
+htm-teilb.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2168/trunk/example-p5-xslt/htm-teilb.xsl
+END
+htm-tpl-struct-inslib.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/epidoc/code/!svn/ver/1858/trunk/example-p5-xslt/htm-tpl-struct-inslib.xsl
+END
+txt-teigap.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teigap.xsl
+END
+htm-teidivedition.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/epidoc/code/!svn/ver/2260/trunk/example-p5-xslt/htm-teidivedition.xsl
+END
+start-edition.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/epidoc/code/!svn/ver/2243/trunk/example-p5-xslt/start-edition.xsl
+END
+teisupplied.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/epidoc/code/!svn/ver/2197/trunk/example-p5-xslt/teisupplied.xsl
+END
+htm-teimilestone.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teimilestone.xsl
+END
+htm-teihi.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2212/trunk/example-p5-xslt/htm-teihi.xsl
+END
+htm-teiaddanddel.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teiaddanddel.xsl
+END
+teig.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teig.xsl
+END
+htm-teilgandl.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teilgandl.xsl
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/epidoc/code/!svn/ver/1425/trunk/example-p5-xslt/LICENSE.txt
+END
+tpl-apparatus.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/epidoc/code/!svn/ver/2211/trunk/example-p5-xslt/tpl-apparatus.xsl
+END
+txt-tpl-linenumberingtab.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-tpl-linenumberingtab.xsl
+END
+txt-teilistbiblandbibl.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-teilistbiblandbibl.xsl
+END
+teinum.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teinum.xsl
+END
+teiq.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teiq.xsl
+END
+htm-teiref.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/htm-teiref.xsl
+END
+txt-teig.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teig.xsl
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/epidoc/code/!svn/ver/2096/trunk/example-p5-xslt/README.txt
+END
+teinote.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/teinote.xsl
+END
+htm-teifigure.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teifigure.xsl
+END
+htm-teiab.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2097/trunk/example-p5-xslt/htm-teiab.xsl
+END
+htm-teidiv.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2243/trunk/example-p5-xslt/htm-teidiv.xsl
+END
+start-txt.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2186/trunk/example-p5-xslt/start-txt.xsl
+END
+tpl-certlow.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/tpl-certlow.xsl
+END
+txt-teip.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-teip.xsl
+END
+htm-teig.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teig.xsl
+END
+htm-tpl-struct-rib.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/epidoc/code/!svn/ver/1843/trunk/example-p5-xslt/htm-tpl-struct-rib.xsl
+END
+htm-tpl-sqbrackets.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/epidoc/code/!svn/ver/1740/trunk/example-p5-xslt/htm-tpl-sqbrackets.xsl
+END
+htm-teinum.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teinum.xsl
+END
+htm-teip.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/htm-teip.xsl
+END
+htm-teihead.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teihead.xsl
+END
+teisicandcorr.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/epidoc/code/!svn/ver/2218/trunk/example-p5-xslt/teisicandcorr.xsl
+END
+txt-teilistanditem.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-teilistanditem.xsl
+END
+teilb.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teilb.xsl
+END
+global-varsandparams.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/global-varsandparams.xsl
+END
+teihi.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/epidoc/code/!svn/ver/2112/trunk/example-p5-xslt/teihi.xsl
+END
+teilgandl.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teilgandl.xsl
+END
+start-odf.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/1434/trunk/example-p5-xslt/start-odf.xsl
+END
+htm-tpl-metadata.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/htm-tpl-metadata.xsl
+END
+teicertainty.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teicertainty.xsl
+END
+htm-tpl-lang.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/epidoc/code/!svn/ver/1858/trunk/example-p5-xslt/htm-tpl-lang.xsl
+END
+htm-tpl-struct-edh.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/epidoc/code/!svn/ver/1843/trunk/example-p5-xslt/htm-tpl-struct-edh.xsl
+END
+htm-teiapp.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2257/trunk/example-p5-xslt/htm-teiapp.xsl
+END
+teigap.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/epidoc/code/!svn/ver/2271/trunk/example-p5-xslt/teigap.xsl
+END
+teihandshift.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teihandshift.xsl
+END
+txt-tpl-apparatus.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/epidoc/code/!svn/ver/2163/trunk/example-p5-xslt/txt-tpl-apparatus.xsl
+END
+teisurplus.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teisurplus.xsl
+END
+teiseg.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teiseg.xsl
+END
+txt-teihead.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/txt-teihead.xsl
+END
+global.css
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/epidoc/code/!svn/ver/2085/trunk/example-p5-xslt/global.css
+END
+teiorigandreg.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teiorigandreg.xsl
+END
+odf-tpl-linenumberingtab.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/epidoc/code/!svn/ver/1434/trunk/example-p5-xslt/odf-tpl-linenumberingtab.xsl
+END
+teiheader.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/teiheader.xsl
+END
+txt-teiref.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-teiref.xsl
+END
+teispace.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/teispace.xsl
+END
+htm-teigap.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2090/trunk/example-p5-xslt/htm-teigap.xsl
+END
+txt-teidiv.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/1543/trunk/example-p5-xslt/txt-teidiv.xsl
+END
+teiorig.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/epidoc/code/!svn/ver/1725/trunk/example-p5-xslt/teiorig.xsl
+END
+htm-teiseg.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/epidoc/code/!svn/ver/2247/trunk/example-p5-xslt/htm-teiseg.xsl
+END
+htm-teilistbiblandbibl.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/epidoc/code/!svn/ver/1851/trunk/example-p5-xslt/htm-teilistbiblandbibl.xsl
+END

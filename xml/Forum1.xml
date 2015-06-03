@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Forum1 - Iscrizione sul cippo del Foro</title>
+				<editor>Giovanna Rocca - Giulia Sarullo</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://www.ila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM">263149</idno>
+				<idno type="localID">Forum1</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement><hi rend="italic">In situ</hi>, <placeName ref="http://pleiades.stoa.org/places/423025">Roma</placeName>, Foro Romano.</settlement>
+						<msName>Cippo del Foro</msName>
+						<altIdentifier>
+							<idno type="CIL">CIL I2 1</idno>
+						</altIdentifier>
+						<altIdentifier>
+							<idno type="EDR">EDR071720</idno>
+						</altIdentifier>
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippo</objectType> di
+								<material ref="http://www.eagle-network.eu/voc/material/lod/78">tufo</material>
+								 a forma di tronco di piramide quadrangolare a spigoli
+                                 sfaccettati;
+								<dimensions unit="cm">
+								<height unit="cm" atLeast="75" atMost="93"/>
+								<width unit="cm" atLeast="39.6" atMost="42"/>
+								<depth unit="cm" atLeast="43.8" atMost="46"/> 
+								</dimensions>.
+								 <!-- Le misure sono quelle del calco al museo -->
+                                <hi rend="bold">Originariamente</hi> circondato da uno zoccolo alto circa 34 cm, di cui adesso rimangono solo alcune parti.
+								</p>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/11">mutilo</rs> <!-- Aggiungere questa traduzione -->
+								 della parte superiore per una estensione non quantificabile.
+								</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione, <rs type="execution" key="scalpro" ref="http://www.eagle-network.eu/voc/writing/lod/1">incisa</rs>
+                                profondamente, corre sulle quattro facce (A-D) del cippo più su
+                                uno spigolo (E) tra la quarta (D) e la prima faccia (A), per un
+                                totale di 16 linee di scrittura. Tolta la parte anepigrafa
+                                coperta dallo zoccolo, lo specchio scrittorio ha un'altezza di
+                                <height unit="cm" atLeast="45" atMost="61"/>. Lo spigolo
+                                inscritto è largo <width unit="cm">5.5</width>. 
+								<lb/>Ductus:
+                                L’iscrizione inizia in direzione sinistrorsa e prosegue con
+                                andamento bustrofedico nelle facce A e B. Le righe 8 e 9 (faccia
+                                C) si presentano capovolte, ma continuano il ductus
+                                bustrofedico. Alla riga 10 viene ripristinato il corretto orientamento dei segni
+                                ma la riga procede in direzione destrorsa come la precedente, presentando dunque 
+                                un esempio di "falso bustrofedico".
+                                La riga 12 (faccia D) presenta ductus sinistrorso
+                                come la precedente, interrompendo così il boustrophedon, che
+                                però viene ripreso nelle righe successive.
+                                La riga 16 (faccia E) presenta le lettere capovolte. 
+								<lb/>Segni divisori:
+                                Per via della superficie rovinata della pietra, è difficile distinguere
+                                con certezza i punti divisori dai buchi dovuti alla friabilità
+                                del tufo. Faccia A: Non sembrano evidenti segni di puntuazione di alcun genere.
+                                Faccia B: Sono chiari i tre punti a l. 7, dopo QUOS. L’assenza di punti dopo 
+                                [--]AS e EUAM potrebbe essere dovuta alla posizione in fine di riga. 
+                                Meno spiegabile l’assenza dopo RECEI. 
+                                Faccia C: Si notano tre punti prima e dopo KALATO/REM (l. 8-9), prima e dopo IOUXMENTA (l. 10-11)
+                                e dopo KAPIA (r. 11). Tutti termini risultano isolati da segni di interpunzione. 
+                                In alcuni casi, la punteggiatura si trova a ridosso delle lettere circostanti.
+                                Faccia D: Gli unici segni sicuri sono i tre punti prima QUOI (r. 13) e prima di 
+                                IOUESTOD (r. 15). 
+                                Faccia E: Non sono evidenti segni di interpunzione.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza molto variabile <height unit="cm" atLeast="6.55" atMost="10.55"/>. Le lettere
+                            sullo spigolo smussato (Faccia E) sono molto più piccole, variano da <height
+                            unit="cm" atLeast="3.95" atMost="4.2"/>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/2058">Roma</placeName>, Foro Romano</origPlace>
+						<origDate notBefore="-0599" notAfter="-0501" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1899" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1899</date> sotto il <placeName>Lapis Niger</placeName> nel <placeName
+                                            type="ancientFindspot">Foro Romano</placeName>.</p>
+						</provenance>
+                        <provenance type="observed">
+                                    Un calco del 1899 è conservato presso il Museo Nazionale Romano - Terme di Diocleziano a Roma
+                        </provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/4">lex</term>
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<!-- <revisionDesc>
+		<change when="2015-05-16" who="Giulia Sarullo">
+			</change> 	
+
+			</revisionDesc>-->
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-1.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-2.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-3.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic rend="apographon" url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/71/071720-4.jpg">
+					<desc>Calco del Cippo del Foro conservato al Museo Nazionale Romano
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                
+                <div type="textpart" subtype="campus" n="A">
+                    <!-- Ho usato questi attributi per segnalare che il testo e' diviso in facciate, non so se sia la cosa migliore -->
+                    <ab>
+                        <lb n="1" rend="right-to-left"/><w>QUOI</w> <w>HO<gap reason="illegible" unit="character"
+                            quantity="1"/></w><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2" rend="left-to-right"/><gap reason="lost" extent="unknown"
+                            unit="character"/><w><supplied reason="lost">S</supplied>AKROS</w><w part="I">ES</w>
+                    	<lb n="3" rend="right-to-left" break="no"/><w part="F">ED</w><w><hi rend="reversed">S</hi>OR<unclear reason="damage">A</unclear>
+                    		<gap reason="lost" extent="unknown" unit="character"/></w>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="campus" n="B">
+                    <ab>
+                        <lb n="4" rend="left-to-right"/><gap reason="lost" extent="unknown"
+                            unit="character"/><gap reason="illegible" atLeast="1" atMost="2"/>
+                            A<gap reason="illegible" atLeast="1" atMost="2" unit="character" precision="low"/>AS
+                    	<lb n="5" rend="right-to-left"/><w>RECEI</w><gap reason="illegible" unit="character" quantity="1"/><gap reason="lost" extent="unknown"
+                            unit="character"/>
+                        <lb n="6" rend="left-to-right"/><w><gap reason="lost" extent="unknown"
+                            unit="character"/>EUA<hi rend="reversed">M</hi></w> 
+                    	<lb n="7" rend="right-to-left"/><w>QUO<hi rend="reversed">S</hi></w><g type="tripunct"/>R<gap reason="lost" extent="unknown"
+                            unit="character"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="campus" n="C">
+                    <ab>
+                        <lb n="8" rend="right-to-left"/><gap reason="lost" extent="unknown"
+                            unit="character"/>M<g type="tripunct"/><w part="I">KALATO</w>
+                    	<lb n="9" rend="left-to-right" break="no"/><w part="F">REM</w><g type="tripunct"/>HA<gap reason="illegible"
+                            unit="character" quantity="1"/><gap reason="lost" extent="unknown"
+                            unit="character"/>
+                        <lb n="10" rend="left-to-right"/><gap reason="lost" extent="unknown"
+                            unit="character"/><gap reason="illegible"
+                            unit="character" quantity="1"/>OD<g type="tripunct"/><w part="I">IOUXMEN</w>
+                    	<lb n="11" rend="right-to-left" break="no"/><w part="F">TA</w><g type="tripunct"/><w>KAPIA</w><g type="tripunct"
+                            /><w>DOTAU<gap reason="lost" extent="unknown" unit="character"/></w>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="campus" n="D">
+                    <ab>
+                        <lb n="12" rend="right-to-left"/><w>MITE<g type="tripunct"
+                            />RI</w><gap reason="illegible"
+                            unit="character" quantity="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="13" rend="left-to-right"/><gap reason="lost" extent="unknown"
+                            unit="character"/><unclear reason="damage">M</unclear><g type="tripunct"/>
+                    		<w><subst><add place="overstrike">Q</add><del>U</del></subst>UOI</w>HA 
+                    	<lb n="14" rend="right-to-left"/>VELOD<g type="tripunct"/><w>NEQU<gap reason="lost"
+                            extent="unknown" unit="character"/></w>
+                        <lb n="15" rend="left-to-right"/>OD<g type="tripunct"/><w>IOUESTOD</w></ab>
+                </div>
+                <div type="textpart" subtype="campus" n="E">
+                    <ab>
+                        <lb n="16" rend="left-to-right"/><w>LOI<del rend="overstrike">U</del>QUIOD<gap reason="lost"
+                            extent="unknown" unit="character"/></w>
+                    </ab>
+                </div>
+            </div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                <p>
+                    <app loc="A">
+                        <note> Alla fine di riga 1, dopo O si nota un tratto verticale, possibile
+                                    <choice><unclear>I</unclear>
+                                <unclear>N</unclear></choice>. 
+                        	All’inizio di riga 2 si notano tracce
+                            di una lettera, dai più interpretata come S, per via della sequenza
+                            successiva. 
+                            
+                            </note>
+                    </app>
+                    <lb/>
+                    <app loc="B">
+                        <note> La riga 4 è fortemente danneggiata dalla lacuna, difficilmente
+                            integrabile; il primo segno potrebbe essere una S, prima della seconda A
+                            si notano tracce di un'asta verticale
+                            Alla fine di riga 5, dopo i due punti, si nota un'asta
+                            verticale. </note>
+                    </app>
+                    <lb/>
+                    <app loc="C">
+                        <note> A riga 8, il primo segno, M, è incompleto. 
+                        	A riga 9, si notano tracce
+                            di un segno composto da un tratto verticale sul quale si innesta una
+                            tratto orizzontale in alto, possibile <choice><unclear>B</unclear>
+                                <unclear>D</unclear>
+                                <unclear>P</unclear>
+                                <unclear>R</unclear></choice>. 
+                        	A riga 11, i segni sono molto
+                            ravvicinati, si nota l’inserimento di I dopo P probabilmente per
+                            dimenticanza del lapicida; l’ultimo segno è piuttosto rovinato, ma
+                            riconoscibile come U. </note>
+                    </app>
+                    <lb/>
+                    <app loc="D">
+                        <note> Alla fine di riga 12, tracce di un tratto verticale. 
+                        	All’inizio di
+                            riga 13, tracce di un segno interpretato come parte finale di M a 5
+                            tratti per la sua posizione in fine di parola. Nel segno successivo, si
+                            notano segni di correzione di Q su U, forse per influenza del successivo
+                            U. </note>
+                    </app>
+                    <lb/>
+                    <app loc="E">
+                        <note> A riga 16, il quarto segno si presenta come una U barrata da un
+                            tratto obliquo e per questo è stato interpretato come un errore del lapicida
+                            che avrebbe voluto cancellare il segno. Nel calco sono presenti due
+                            segni in fine di riga che sono però andati perduti nell’originale. 
+                            La lettura QO di Goidanich non sembra verosimile per la costante presenza di U 
+                            dopo Q nella porzione conservata dell'iscrizione</note>
+                    </app>
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> In questa iscrizione, per quanto è possibile appurare dal testo sopravvissuto,
+                    viene rispettata la norma di distribuzione dei segni per le velari tipica delle
+                    iscrizioni etrusche. Troviamo infatti Q avanti U, K avanti A e O (preceduta da
+                    R) e C avanti E (non ci sono casi di velare seguita da I). <lb/>
+                    <lb/>Q: Coppa con occhiello ampio poggiante su asta verticale non secante.
+                    <lb/>U: è presente in entrambe le varianti, a forma di V e a forma di Y,
+                    con codolo più o meno pronunciato. 
+                	<lb/>O: tondeggiante, nella maggior parte delle occorrenze è di dimensioni 
+                	inferiori rispetto alle altre lettere, ma non sempre (cfr. l. 7). 
+                	<lb/>I: asta verticale lunga. 
+                	<lb/>H: a scaletta chiusa, con i tratti verticali prolungati rispetto alle 
+                	traverse almeno in un caso. 
+                	<lb/>A: alterna varianti con traversa discendente e varianti con traversa
+                    ascendente. Le due aste si congiungono a volte ad angolo acuto, altre volte ad
+                    asta verticale si congiunge un'asta obliqua. 
+                	<lb/>K: asta verticale su cui si innestano separatamente i due tratti obliqui. <lb/>R (5) : a forma di rho,
+                    con occhiello tondo, molto ampio. 
+                	<lb/>S: sempre a tre tratti, destrorso anche nelle righe sinistrorse. 
+                	<lb/>E: asta verticale sempre prolungata oltre il piede, in alcuni casi 
+                	anche in alto oltre il primo tratto orizzontale; tratti orizzontali discendenti e paralleli, di pari lunghezza. <lb/>D (6) :
+                    tondeggiante con ansa molto ampia. 
+                	<lb/>C: tondeggiante con estremità leggermente incurvate. 
+                	<lb/>M: a cinque tratti di pari lunghezza, tranne in
+                    una occasione, in cui si trova il M di tradizione euboica, con la prima asta
+                    verticale prolungata in basso. In un'occasione è retrograda (cfr. l. 6). 
+                	<lb/>L: di tipo calcidese con spigolo in basso, in due occorrenze con angolo acuto, 
+                	nell’altra con angolo più aperto e secondo tratto più lungo. 
+                	<lb/>T: con traversa poggiante sull’asta montante, pressoché orizzontale, 
+                	talvolta ascendente, altre discendenti. 
+                	<lb/>X: a croce, di dimensioni inferiori rispetto alle altre lettere. 
+                	<lb/>P: a uncino, con tratto orizzontale molto breve. 
+                </ab>
+				</div>
+				
+				<div type="bibliography">				
+			<bibl subtype="primasegnalazione">
+						AE 1899, 0208.
+					</bibl> 
+			<bibl subtype="princeps">
+						AE 1899, 0208.
+					</bibl>
+			<bibl>
+						AE 1913, p. 11 s. n. 48.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 16 s. n. 43.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 28 s. n. 81.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 35 s. n. 105.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 13 s. n. 31.
+					</bibl> 
+			
+					<bibl>
+						AE 1900, p. 16 s. n. 41.
+					</bibl> 
+			
+					<bibl>
+						AE 1903, p. 2 s. n. 4.
+					</bibl> 
+			
+					<bibl>
+						AE 1899, p. 45 s. n. 152.
+					</bibl> 
+			
+					<bibl>
+						AE 1907, p. 41 s. n. 143.
+					</bibl> 
+			
+					<bibl>
+						AE 1905, p. 56 s. n. 235.
+					</bibl> 
+			
+					<bibl>
+						ILLRP 0003.
+					</bibl> 
+			
+					<bibl>
+						CIL 01 (2. Aufl.) 02, 00001.
+					</bibl> 
+			
+					<bibl>
+						HD016204
+					</bibl> 
+			
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

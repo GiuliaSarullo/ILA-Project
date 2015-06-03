@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Forum2 - Iscrizione di Trepios</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://www.ila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM"></idno>
+				<idno type="localID">Forum2</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Roma</settlement>
+						<repository>Antiquarium Palatino</repository>
+						<idno></idno>
+						<msName></msName>
+						<altIdentifier><idno type="URI">http://it.wikipedia.org/wiki/Lapis_niger</idno>
+ 						</altIdentifier>			
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								Fondo di <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/305">vaso</objectType> 
+									di forma aperta (ciotola?) in <material>bucchero</material> nero pesante; <!-- Manca il ref --> 
+								l. cm 12,6; h. cm 2,5; diametro del piede cm 7
+								<dimensions unit="cm">
+								<height unit="cm">2,5</height>
+								<width unit="cm">12,6</width>
+								<dim type="diameter" unit="cm">7</dim>
+								</dimensions>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15.html">frammento</rs> <!-- Aggiungere questa traduzione -->
+								 </p>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/9" key="scariphatis">graffita</rs> 
+								dopo la cottura sotto il piede, entro l'anello. 
+								<lb/>Ductus: destrorso.
+                                <lb/>Segni divisori: nessuno.
+                                
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza molto variabile <height unit="cm" atLeast="0.3" atMost="0.9"/>. 
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/2058">Roma</placeName>, Foro Romano, </origPlace>
+						<origDate notBefore="-0525" notAfter="-0475" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">fine VI - inizi V secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1903" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1903-1904</date> da Giacomo Boni durante gli scavi nel 
+							    	<placeName type="ancientFindspot">Foro Romano</placeName>, nell'area del cosiddetto Equus Domitiani.</p>
+						</provenance>
+                        <provenance type="found" subtype="rediscovered">
+                                <p>L'iscrizione è rimasta inedita fino al <date>2005</date>.
+                      				</p>
+                        </provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>possesso</term> <!-- Manca il ref -->
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2015-05-24" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/147/147446.jpg">
+					<desc>Frammento di ciotola in bucchero con forma onomastica Trepios al di sotto del piede
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/147/147446-1.jpg">
+					<desc>Frammento di ciotola in bucchero con forma onomastica Trepios al di sotto del piede: disegno ricostruttivo
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/147/147446-2.jpg">
+					<desc>Particolare del fondo interno con segno a croce
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                <head>Trascrizione diplomatica</head>
+               <ab>
+               	<lb n="1"/>TREPIOS</ab> 
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                <p>
+                  
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                <lb/>T: tratto superiore orizzontale.
+				<lb/>R: forma di rho con occhiello arrotondato e chiuso in basso.
+				<lb/>E: con i tre tratti discendenti, il primo dei quali non si innesta 
+                	esattamente all'apice dell'asta ma poco più in basso. 
+				<lb/>P: con uncino arrotondato e aperto.
+                <lb/>I: asta verticale, più corta rispetto a quella degli altri segni.
+				<lb/>O: di dimensioni ridotte.
+				<lb/>S: a tre tratti con direzione retrograda.	
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+				
+					<listBibl>
+					<!-- <bibl>
+ 							<ptr target="biblio.xml#jmr1971a"/>
+ 							<citedRange>3</citedRange>
+						</bibl> -->
+		
+					<bibl>
+						Italica ars. Studi in onore di Giovanni Colonna per il premio I Sanniti, a cura di D. Caiazza, Piedimonte Matese 2005, pp. 267-277, con foto e disegno (P. Fortini) (1)
+					</bibl>
+			
+					
+				</listBibl>
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

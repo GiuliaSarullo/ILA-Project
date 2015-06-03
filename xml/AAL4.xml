@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Acqua Acetosa Laurentina 4 - Iscrizione su tegola</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://www.ila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM"> </idno>
+				<idno type="localID">AAL4</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Roma</settlement>
+							
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								Frammento di <objectType ref="http://www.eagle-network.eu/voc/decor/lod/1405.html">tegola</objectType> di <material ref="http://www.eagle-network.eu/voc/material/lod/130.html">impasto</material>
+								rosso.
+								<dimensions unit="cm">
+									<width unit="cm">6</width>
+									<height unit="cm">5.5</height>
+								</dimensions>
+                               <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15.html">frammento</rs> 
+									rotto su tutti i lati <!-- Aggiungere questa traduzione -->.</p>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/14" key="stilo">incisa</rs> prima della cottura
+								sul margine superiore del frammento.
+								<lb/>Ductus: sinistrorso.
+                                <lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="3" atMost="3.2"/>.
+						</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa Laurentina</placeName>.
+						</origPlace>
+						<origDate notBefore="-0599" notAfter="-0500" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1978" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1978</date> sull'altura dell'abitato arcaico di <placeName ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa</placeName> sulla via Laurentina.
+							    </p>
+						</provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>contrassegno?</term> <!-- Manca il ref -->
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2015-05-29" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+						
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134636-1.jpg">
+					<desc>dolio con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                <head>Trascrizione diplomatica</head>
+                <ab>
+                 <lb n="1" rend="right-to-left"/>TP 
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                
+            </div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>T: con traversa discendente.
+                	<lb/>P angolosa e aperta.
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+				
+					<listBibl>
+					<!-- <bibl>
+ 							<ptr target="biblio.xml#jmr1971a"/>
+ 							<citedRange>3</citedRange>
+						</bibl> -->
+		
+						<bibl>
+						Arch. Class., 54, 2003, pp. 1-21, con disegni e foto a figg. 1, 5 e 11-15 (M. Gnade - G. Colonna) - AE 2003 (1)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

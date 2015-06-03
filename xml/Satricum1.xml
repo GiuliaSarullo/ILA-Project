@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Satricum1 - Iscrizione su anforetta</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://progettoiulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM">--- </idno>
+				<idno type="localID">Satricum1</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Le Ferriere (Latina)</settlement>
+						<repository>magazzini</repository>
+						<idno>inv. S4607/1</idno>
+						<altIdentifier>
+							<idno type="CIL">---</idno>
+						</altIdentifier>
+						<altIdentifier>
+							<idno type="EDR">EDR134539</idno>
+						</altIdentifier>
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								Frammento di parete, con esiguo resto della base, di un <objectType 
+									ref="http://www.eagle-network.eu/voc/objtyp/lod/305">vaso</objectType> di
+								<material ref="http://www.eagle-network.eu/voc/material/lod/130">impasto</material> <!-- Controllare traduzione -->
+										di colore bruno di forma chiusa, probabilmente "un'<objectType 
+											ref="http://www.eagle-network.eu/voc/objtyp/lod/17">anforetta</objectType> del tipo a spirali" (Colonna 2008: 194). 
+                                       <dimensions>
+                                           <width unit="cm">4.3</width>
+                                           <height unit="cm">5.6</height>
+                                           <depth unit="cm" atLeast="0.4" atMost="0.7"/>                                           
+                                       </dimensions> </p>
+                                   <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15">frammento</rs> <!-- Aggiungere questa traduzione -->.
+								
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/9" key="scariphatis">graffita</rs> dopo la cottura 
+								intorno alla base del vaso, in posizione capovolta rispetto alla medesima.
+								<lb/>Ductus: destrorso.
+                                <lb/>Segni divisori: nessuno.
+                                
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="0.7" atMost="1.4"/>.
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/14345">Satricum</placeName>, 
+							località Le Ferriere presso Campoverde</origPlace>
+						<origDate notBefore="-0670" notAfter="-0650" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">VII secolo a.C., probabilmente intorno alla metà.</origDate>
+						</origin>
+						<provenance type="found" when="1990" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1990</date>  in un contesto abitativo 
+							    	dell'acropoli di <placeName ref="http://pleiades.stoa.org/places/423060">Satricum</placeName>, 
+							    	(strati sotto la struttura A), fuori dall'area del santuario.
+							    </p>
+						</provenance>
+                   </history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>possesso</term> <!-- Manca il ref -->
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+		<!-- 	<revisionDesc>
+			<change when="2015-05-22" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc> -->
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+					
+					<graphic rend="apographon" url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134539.jpg">
+					<desc>Frammento di anforetta con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                
+                  <ab>
+                    <lb n="Colonna"/><gap reason="lost" extent="unknown" unit="character" precision="low"/>ADE<unclear 
+                        reason="damage">V</unclear><unclear reason="damage">A</unclear><gap reason="lost" 
+                            extent="unknown" unit="character" precision="low"/>
+                </ab>
+
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+				<p>
+                     <app>
+                        <rdg resp="Rocca"><gap reason="lost" extent="unknown" unit="character"/>a de<unclear reason="damage">ua</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+				<p>
+                     <app>
+                        <rdg resp="Rocca"><gap reason="lost" extent="unknown" unit="character"/>ade<unclear reason="damage">ua</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+                <p>
+                     <app>
+                        <rdg resp="Colonna"><gap reason="lost" extent="unknown" unit="character"/>ad e<unclear reason="damage">ua</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+                <p>
+                    <app>
+                        <rdg resp="Colonna"><gap reason="lost" extent="unknown" unit="character"/>a de<unclear reason="damage">ua</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+                <p>
+                    <app>
+                        <rdg resp="De Simone"><gap reason="lost" extent="unknown" unit="character"/>ade<unclear reason="damage">xa</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+                <p>
+                    <app>
+                        <rdg resp="De Simone"><gap reason="lost" extent="unknown" unit="character"/>ade<unclear reason="damage">x a</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>A: traversa ascendente verso destra.
+                    <lb/>D: a occhiello triangolare, di dimensioni inferiori rispetto alle altre lettere.
+                    <lb/>E: i tre tratti sono leggermente obliqui e si innestano sul tratto verticale al di sopra e al di sotto dell’inizio e della fine.
+                    <lb/>n.4: due tratti obliqui a forma di V che continuano dopo l’angolo di intersezione. Se U nella forma a V sprovvista di coda, ma con i tratti prolungati per scorrimento dello stilo.
+                    <lb/>n.5: Resta parte del tratto obliquo sinistro e della traversa ascendente che fuoriesce.
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+					<bibl subtype="primasegnalazione">
+						<ptr target="Biblio.xml#Maaskant-Kleinbrink1992b"/>
+						<citedRange>205, 318, cat. nr. 2080</citedRange>
+					</bibl>
+					<bibl subtype="princeps">
+						<ptr target="Biblio.xml#Colonna1992c"/>
+						<citedRange>107</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Colonna1992a"/>
+						<citedRange>316-320</citedRange>
+					</bibl>
+					<bibl>
+						AE 1992, 265
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#De_Simone1993"/>
+						<citedRange>285-288</citedRange>
+					</bibl>
+					<bibl>
+						AE 1993, 450
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#Rosen1997"/>
+						<citedRange>21</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Urbanova1999"/>
+						<citedRange>125-130</citedRange>
+					</bibl>
+					<!--  
+					<bibl>
+						XI Congresso Internazionale di Epigrafia Greca e Latina. Atti I, Roma 1999, p. 387, nr. 10 (H. Solin) (6)
+					</bibl> -->
+					<bibl>
+						<ptr target="Biblio.xml#Hartmann2005"/>
+						<citedRange>25-26</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Colonna2008"/>
+						<citedRange>98-99 e 194-197, nr. 632</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Maras2009"/>
+						<citedRange>115, nr. 3 e Tab. 1, nr. 3</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Drago_Troccoli2009"/>
+						<citedRange>435 A.3</citedRange>
+					</bibl>
+										
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

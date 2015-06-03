@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Satricum5 - Iscrizione su dolio</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://progettoila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM"> </idno>
+				<idno type="localID">Satricum5</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Le Ferriere (Latina)</settlement>
+						<repository>magazzini</repository>
+						<idno>inv. P864-A2002</idno>		
+					<altIdentifier>
+							<idno type="CIL">---</idno>
+						</altIdentifier>
+						<altIdentifier>
+							<idno type="EDR">EDR134701</idno>
+						</altIdentifier>
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								Frammento di parte inferiore di <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/116">dolio</objectType> di
+								<material ref="http://www.eagle-network.eu/voc/material/lod/130">impasto</material> rosso a nucleo grigio. 
+									Probabilmente appartiene allo stesso dolio di Satricum3 e Satricum4. <!-- mettere i LINK! -->
+								<dimensions unit="cm">
+								<width unit="cm">4,5</width>
+                                <height unit="cm">5</height>
+                                <depth unit="cm">3,1</depth>
+								</dimensions>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/11">mutilo</rs> <!-- Aggiungere questa traduzione -->.</p>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/14" key="stilo">incisa</rs> prima della cottura
+								sulla parte inferiore del dolio.
+								<lb/>Ductus: indecidibile.
+                                <lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							La lettera ha un'altezza di <height unit="cm">3,8</height> 
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/14345">Satricum</placeName>, 
+							località Le Ferriere presso Campoverde</origPlace>
+						<origDate notBefore="-0575" notAfter="-0525" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Metà VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="2002" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">2002</date> nell'edificio V sull'acropoli di 
+							    	<placeName ref="http://pleiades.stoa.org/places/423060">Satricum</placeName>, in giacitura secondaria.
+							    </p>
+						</provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>serie numerata</term><!-- cercare ref in eagle vocabulary-->
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2015-05-23" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+					
+						<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134701.jpg">
+					<desc>Frammento di parete di dolio con numerale graffito
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via ILA</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+               	<ab>
+                    V                                                
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                <p>
+                    <app loc="1">
+                        <note>
+                           
+                        </note>
+                    </app>
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	V: i due tratti obliqui non si incontrano al vertice e il tratto sinistro è 
+                	leggermente curvo mentre il destro manca della parte superiore.
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+					<bibl subtype="primasegnalazione">
+						<ptr target="Biblio.xml#Gnade2004"/>
+						<citedRange>265-272</citedRange>
+					</bibl>
+					<bibl subtype="princeps">
+						<ptr target="Biblio.xml#Gnade2003"/>
+						<citedRange>1-21</citedRange>
+					</bibl>
+					<bibl>
+						AE 2003, 297b 
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#Colonna2008"/>
+						<citedRange>98-99 e 194-197, nr. 635</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Adamik2010"/>
+						<citedRange>19, 28-29</citedRange>
+					</bibl>
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

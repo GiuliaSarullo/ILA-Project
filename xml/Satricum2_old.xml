@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Satricum 1 - Lapis Satricanus</title>
+                <editor>Giovanna Rocca</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Istituto di Scienze dell'Uomo, del Linguaggio e dell'Ambiente - Libera
+                    Università di Lingue e Comunicazione IULM</authority>
+                <idno type="filename">Satricum 1</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                            (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                    <p>Ogni uso o distribuzione di questo lavoro dovrà contenere un link
+                        all'indirizzo <ref>http://www.progettoila.altervista.org/</ref>
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>
+                              <rs type="objectType">Lastrone</rs> di
+                                            <material>tufo</material> compatto grigio-chiaro
+                                        (‘cappellaccio’), mancante dello spigolo anteriore sinistro. <dimensions>
+                                            <width unit="cm" atLeast="87" atMost="87.8"/>
+                                            <height unit="cm" atLeast="15" atMost="16.5"/>
+                                            <depth unit="cm" atLeast="62.5" atMost="63.2"/>
+                                        </dimensions>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <!-- Questi dati dovrebbero andare sotto l'etichetta "Descrizione/dati epigrafica/i  -->
+                                <layout>Iscrizione sulla faccia anteriore del blocco prodotta con
+                                        <rs type="execution">scalpello</rs> con solco largo cm 0,5,
+                                    profondo cm 0,02 (leggero o pesante?) con tipica sezione a V.
+                                    <lb/>Ductus: destrorso. <lb/>Segni divisori: nessuno. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Alfabeto latino. Le lettere hanno un'altezza di <height unit="cm" atLeast="3.1" atMost="4.8"/> o con diametro di <width unit="cm" atLeast="2.3" atMost="2.8"/>. </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="-0525"
+                               notAfter="-0500"
+                               precision="low"
+                               evidence="internal">Fine VI - inizio V secolo a.C.</origDate>
+                        </origin>
+                        <provenance>
+                            <listEvent>
+                                <event type="found">
+                                    <p>Rinvenuta nel <date type="foundDate">1977</date> reimpiegato
+                                        con altri due pezzi anepigrafi dello stesso materiale nelle
+                                        fondamenta del tempio II della Mater Matuta sull’acropoli di
+                                            <placeName type="ancientFindspot">Satricum</placeName>,
+                                        località Le Ferriere presso Campoverde.</p>
+                                </event>
+                                <event type="observed">
+                                    <p>Museo Nazionale Romano - Terme di Diocleziano, Roma. Senza n.
+                                        inv. </p>
+                                </event>
+                            </listEvent>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+          <!--  <div type="figure" subtype="photographs">
+                <head>Fotografia</head>
+                <ab/>
+            </div>
+            <div type="figure" subtype="representations">
+                <head>Apografo</head>
+                <ab>
+                    <graphic url=""/>
+                </ab>
+            </div>-->
+            <div type="edition">
+                <head>Trascrizione diplomatica</head>
+                <ab>
+                    <lb n="1" rend="left-to-right"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear reason="damage">I</unclear>EI<w>STETERAI</w>
+               <persName>POPLIOSIO</persName>
+               <persName>VALESIOSIO</persName>
+                    <lb n="2" rend="left-to-right"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w>SVODALES</w>
+               <persName type="divine">MAMARTEI</persName>
+                </ab>
+            </div>
+            <div subtype="text" type="description">
+                <head>Tipologia testuale</head>
+                <ab>
+                    <rs type="textType">Dedica</rs>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <head>Apparato critico</head>
+                <p>
+                    <app>
+                        <note> Dalla documentazione dello scavo è emersa una foto in cui il Lapis,
+                            secondo Colonna 1995, appare più estesamente conservato in alto a
+                            sinistra di quanto non mostrino le altre foto finora pubblicate. La
+                            foto, scattata quando la pietra era ancora in situ, dimostrerebbe allora
+                            che due sono stati i momenti di danno: uno all’atto dello scavo e uno
+                            durante la successiva estrazione del pezzo. Nel 1991 questa foto viene
+                            pubblicata senza commento da C.M. Stibbe e discussa nel 1994 da
+                            Waarsenburg 1996. Nel 1995 G. Colonna, su un ingrandimento dell’angolo
+                            interessato, non solo recupera la sua prima lettura di i prima del
+                            segmento -ei: “Si osserva chiaramente che la scheggia d’angolo andata
+                            perduta conteneva la parte superiore del segno controverso, che è
+                            inequivocabilmente una i, ben conservata in tutto il suo sviluppo” ma
+                            aggiunge anche che “A sinistra della i si intravede un’altra lettera,
+                            che sembra essere una u asimmetrica, con il tratto destro più corto del
+                            sinistro, forse per preoccupazioni di spazio”. L’anno successivo però De
+                            Waele 1996:233 osserva “On a photo, made before the stone was removed he
+                            (i.e. Waarseburg) believed that he could distinguish the impression of
+                            the apex of a V-shaped letter. This observation is not correct, because
+                            it is due to the shadow of a grass-stalk”. E nella nota riferita al
+                            lavoro di Waarseburg aggiunge che anche un ingrandimento della foto
+                            portava alle stesse conclusioni. Le analisi effettuate su nostra
+                            richiesta al Department of Classics e del Department of Computer Science
+                            dell’University of Florida, da parte di Eleni Bozia e Angelos
+                            Barmpoutis, non hanno però sciolto i dubbi a causa della cattiva qualità
+                            dell’immagine. Non possiamo perciò attribuire alle nuove informazioni un
+                            valore probatorio. <lb/>Contra la presenza di una i si è espresso
+                            Prosdocimi che, in seguito ad un esame autoptico, afferma che il tratto
+                            è meno profondo di tutti i tratti dell’incisione. Anche Lucchesi-Magni
+                            2002:25 parlano di “traccia di un’asta verticale, dal ductus pressoché
+                            retto e parallelo alle aste verticali delle lettere successive, la cui
+                            profondità appare tuttavia inferiore a quella delle altre”. </note>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Colonna">
+                     <supplied reason="lost">Laiu</supplied>ei</rdg>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Colonna">
+                     <supplied reason="lost">Iun</supplied>
+                     <unclear reason="damage">i</unclear>ei</rdg>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Prosdocimi">
+                     <supplied reason="lost">Matr</supplied>ei</rdg>
+                    </app>
+                </p>
+            </div>
+            <div subtype="epigraphic" type="commentary">
+                <head>Commento epigrafico</head>
+                <ab>
+                    <lb/>A (5): forma triangolare con traversa sempre discendente, in accordo con la
+                    direzione della scrittura. <lb/>D (1): forma arrotondata, con enfasi bassa,
+                    piuttosto ampia rispetto agli altri esempi della stessa lettera nelle altre
+                    iscrizioni latine arcaiche. <lb/>E (6): asta verticale prolungata oltre il
+                    piede, traverse inclinate verso il basso. <lb/>I (7): asta verticale lunga.
+                    <lb/>L (3): appoggio piuttosto sviluppato in lunghezza che con l’asta verticale
+                    forma un angolo acuto. <lb/>M (2): a quattro tratti. <lb/>O (6): costantemente
+                    arrotondata e più piccola rispetto alle altre lettere. <lb/>P (2): occhiello
+                    aperto arrotondato, “arcuata”. <lb/>R (2): in forma di rho, con occhiello
+                    piccolo, arrotondato e chiuso. <lb/>S (6): uno dei segni più frequenti sul
+                    Lapis; regolarmente a tre tratti, piuttosto angoloso, sempre progressiva
+                    rispetto al ductus dell’iscrizione. <lb/>T (3): sempre con traversa discendente,
+                    in accordo con la direzione della scrittura, e piuttosto sviluppata. <lb/>V (2):
+                    sempre con tratti simmetrici e nessuna coda. </ab>
+            </div>
+            <div subtype="linguistic" type="commentary">
+                <head>Commento linguistico</head>
+                <ab/>
+            </div>
+            <div type="bibliography">
+                <head>BIBLIOGRAFIA</head>
+                <head>Editio princeps</head>
+                <ab>
+                    <bibl>
+                        <author>
+                            <name type="surname"/>
+                            <name type="forename"/>
+                        </author>
+                        <title level="a"/>
+                        <title level="j"/>
+                        <biblScope type="volume"/>
+                        <date/>
+                        <biblScope type="pages"/>
+                    </bibl>
+                </ab>
+            </div>
+            <div type="bibliography">
+                <head>Altra bibliografia</head>
+                <ab>
+                    <bibl>
+                        <author>
+                            <name type="surname"/>
+                            <name type="forename"/>
+                        </author>
+                        <title level="a"/>
+                        <title level="j"/>
+                        <biblScope type="volume"/>
+                        <date/>
+                        <biblScope type="pages"/>
+                    </bibl>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

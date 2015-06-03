@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Satricum2 - Lapis Satricanus</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://progettoila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM">251070</idno>
+				<idno type="localID">Satricum2</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Roma</settlement>
+						<repository>Museo Nazionale Romano, Terme di Diocleziano, inv. scavo SA77-01.</repository>
+						<msName>Lapis Satricanus</msName>
+						<altIdentifier>
+							<idno type="CIL">CIL I2 2832a</idno>
+						</altIdentifier>
+						<altIdentifier>
+							<idno type="EDR">EDR078476</idno>
+						</altIdentifier>
+					</msIdentifier>
+					
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Blocco</objectType> di
+								<material ref="http://www.eagle-network.eu/voc/material/lod/78">tufo</material>
+								compatto grigio-chiaro ('cappellaccio').
+								<dimensions unit="cm">
+									<width unit="cm" atLeast="87" atMost="87.8"/>
+                                    <height unit="cm" atLeast="15" atMost="16.5"/>
+                                    <depth unit="cm" atLeast="62.5" atMost="63.2"/>
+									<!-- Misure: L. a: 87; b: 86,5; c: 62,5; d: 63,2; H: a: 15; b: 16,5. -->
+								</dimensions></p>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/11">mutilo</rs> <!-- Aggiungere questa traduzione -->
+								 dello spigolo anteriore sinistro.
+								
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								Iscrizione sulla faccia anteriore del blocco prodotta con
+                                <rs type="execution" key="scalpro" ref="http://www.eagle-network.eu/voc/writing/lod/1">scalpello</rs> con solco largo cm 0,5,
+                                profondo cm 0,02 (leggero o pesante?) con tipica sezione a V.
+                                <lb/>Ductus: destrorso. 
+								<lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="3.1" atMost="4.8"/>. Le 
+							O hanno un diametro di <width unit="cm" atLeast="2.3" atMost="2.8"/>.
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/14345">Satricum</placeName>, 
+							località Le Ferriere presso Campoverde</origPlace>
+						<origDate notBefore="-0520" notAfter="-0501" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">ultimo quarto del 
+							VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1977" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1977</date> come pietra di reimpiego nelle fondazioni della peristasi orientale del tempio (II) 
+							    	di Mater Matuta, sull'acropoli di <placeName ref="http://pleiades.stoa.org/places/423060">Satricum</placeName>.
+							    </p>
+						</provenance>
+                        <provenance type="observed" subtype="autopsied" when="2009">
+                                    Museo Nazionale Romano - Terme di Diocleziano, <placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/2058">Roma</placeName>.
+                        </provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/79">dedica</term>
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<!-- <revisionDesc>
+			<change when="2015-05-21" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc> -->
+		</teiHeader>
+		
+			<facsimile>
+				<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/78/078476-1.jpg">
+					<desc>Lapis Satricanus, in situ
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via ILA</ref>	
+					</desc>
+					</graphic>
+				
+				<graphic url="https://upload.wikimedia.org/wikipedia/commons/0/09/Lapis_Satricanus_01.JPG" sameAs="https://commons.wikimedia.org/wiki/File:Lapis_Satricanus_01.JPG">
+					<desc>Lapis Satricanus
+						<ref type="license" target="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution Share Alike 3.0</ref>
+					</desc>
+					</graphic>
+				
+				<graphic url="https://upload.wikimedia.org/wikipedia/commons/e/ee/Lapis_Satricanus_02.JPG" sameAs="https://commons.wikimedia.org/wiki/File:Lapis_Satricanus_02.JPG">
+					<desc>Lapis Satricanus, particolare della frattura
+						<ref type="license" target="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution Share Alike 3.0</ref>
+					</desc>
+					</graphic>
+				
+				<graphic rend="apographon" url="IMMAGINI/Satricum2A.jpg">
+					<desc>Lapis Satricanus, apografo da <ptr target="Biblio.xml#Stibbe1980a"/>
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via ILA</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+               <ab>
+                    <lb n="1" rend="left-to-right"/>
+               <gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">I</unclear>EI <w>STETERAI</w>
+               <persName>POPLIOSIO</persName>
+               <persName>UALESIOSIO</persName>
+                    <lb n="2" rend="left-to-right"/>
+                         <w>SUODALES</w>
+               <persName type="divine">MAMARTEI</persName>
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+               <p>
+                    <app>
+                        <note> Dalla documentazione dello scavo è emersa una foto in cui il Lapis,
+                            secondo Colonna 1995, Tav. XLVII, appare più estesamente conservato in alto a
+                            sinistra di quanto non mostrino le altre foto finora pubblicate. La
+                            foto, scattata quando la pietra era ancora in situ, dimostrerebbe allora
+                            che due sono stati i momenti di danno: uno all’atto dello scavo e uno
+                            durante la successiva estrazione del pezzo. Nel 1991 questa foto viene
+                            pubblicata senza commento da C.M. Stibbe e discussa nel 1994 da
+                            Waarsenburg (cfr. Waarsenburg 1996). Nel 1995 G. Colonna, su un ingrandimento 
+                            dell’angolo
+                            interessato, non solo recupera la sua prima lettura di i prima del
+                            segmento -ei: “Si osserva chiaramente che la scheggia d’angolo andata
+                            perduta conteneva la parte superiore del segno controverso, che è
+                            inequivocabilmente una i, ben conservata in tutto il suo sviluppo” ma
+                            aggiunge anche che “A sinistra della i si intravede un’altra lettera,
+                            che sembra essere una u asimmetrica, con il tratto destro più corto del
+                            sinistro, forse per preoccupazioni di spazio”. L’anno successivo però De
+                            Waele 1996:233 osserva “On a photo, made before the stone was removed he
+                            (i.e. Waarseburg) believed that he could distinguish the impression of
+                            the apex of a V-shaped letter. This observation is not correct, because
+                            it is due to the shadow of a grass-stalk”. E nella nota riferita al
+                            lavoro di Waarseburg aggiunge che anche un ingrandimento della foto
+                            portava alle stesse conclusioni. Le analisi effettuate su nostra
+                            richiesta al Department of Classics e del Department of Computer Science
+                            dell’University of Florida, da parte di Eleni Bozia e Angelos
+                            Barmpoutis, non hanno però sciolto i dubbi a causa della cattiva qualità
+                            dell’immagine. Non possiamo perciò attribuire alle nuove informazioni un
+                            valore probatorio 
+                        	</note>
+                    </app>
+               		<app>
+                        <note>
+               			<lb/>Contro la presenza di una i si è espresso
+                            Prosdocimi che, in seguito ad un esame autoptico, afferma che il tratto
+                            è meno profondo di tutti i tratti dell’incisione. Anche Lucchesi-Magni
+                            2002:25 parlano di “traccia di un’asta verticale, dal ductus pressoché
+                            retto e parallelo alle aste verticali delle lettere successive, la cui
+                            profondità appare tuttavia inferiore a quella delle altre”. Da parte 
+                            nostra, l’ultima autopsia (maggio 2009) ha confermato, mediante l’uso di 
+                            una luce radente, la presenza del tratto verticale.
+                        </note>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Colonna">
+                     <supplied reason="lost">Laiu</supplied>ei</rdg>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Colonna">
+                     <supplied reason="lost">Iun</supplied>
+                     <unclear reason="damage">i</unclear>ei</rdg>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Prosdocimi">
+                     <supplied reason="lost">Matr</supplied>ei</rdg>
+                    </app>
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>I: asta verticale lunga.
+                    <lb/>E: asta verticale prolungata oltre il piede, tratti orizzontali inclinati 
+                	verso il basso. 
+                	<lb/>S: uno dei segni più frequenti sul Lapis; regolarmente a tre tratti, piuttosto angoloso, sempre progressiva
+                    rispetto al ductus dell’iscrizione. 
+                	<lb/>T: sempre con traversa discendente,
+                    in accordo con la direzione della scrittura, e piuttosto sviluppata. 
+                	<lb/>R: in forma di rho, con occhiello
+                    piccolo, arrotondato e chiuso. 
+                	<lb/>A: forma triangolare con traversa sempre discendente, in accordo con la
+                    direzione della scrittura. 
+                	<lb/>P: occhiello aperto arrotondato, “arcuata”. 
+                	<lb/>O: costantemente arrotondata e più piccola rispetto alle altre lettere. 
+                	<lb/>L: appoggio piuttosto sviluppato in lunghezza che con l’asta verticale
+                    forma un angolo acuto. 
+                	<lb/>V: sempre con tratti simmetrici e nessuna coda.
+                	<lb/>D: forma arrotondata, con enfasi bassa,
+                    piuttosto ampia rispetto agli altri esempi della stessa lettera nelle altre
+                    iscrizioni latine arcaiche. 
+                	<lb/>M: a quattro tratti. 
+                	</ab>
+				</div>
+				
+				<div type="bibliography">
+					<bibl subtype="primasegnalazione">
+						<ptr target="Biblio.xml#Quilici_Gigli1978c"/>
+						<citedRange>56-59</citedRange>
+					</bibl>
+					<bibl subtype="princeps">
+						<ptr target="Biblio.xml#Stibbe1980a"/>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Peruzzi1978"/>
+						<citedRange>346-350</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Quilici_Gigli1978b"/>
+						<citedRange>95-98</citedRange>
+					</bibl>	
+					<bibl>
+						<ptr target="Biblio.xml#Bonfante1978"/>
+						<citedRange>269-272</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Pisani1978"/>
+						<citedRange>23</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Prosdocimi1979"/>
+						<citedRange>218-222</citedRange>
+					</bibl>	
+					<bibl>
+						<ptr target="Biblio.xml#Versnel1980"/>
+						<citedRange>223-232</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Guarducci1980"/>
+						<citedRange>479-489</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Pisani1981"/>
+						<citedRange>136-140</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#De_Simone1981"/>
+						<citedRange>25-56</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#de_Waele1981a"/>
+						<citedRange>48</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#de_Waele1981b"/>
+						<citedRange>677-682</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#de_Waele1981c"/>
+						<citedRange>40</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Peters1981"/>
+						<citedRange>102</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Radke1981"/>
+						<citedRange>98</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Stibbe1982"/>
+						<citedRange>176, nr. 343</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Versnel1982"/>
+						<citedRange>192-235</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Bloch1983"/>
+						<citedRange>362-371</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Prosdocimi1983b"/>
+						<citedRange>LV-XCVIII; LXIII-LXV</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Colonna1984"/>
+						<citedRange>104-106</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Marinetti1984"/>
+						<citedRange>26-27</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Prosdocimi1984"/>
+						<citedRange>183-230</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Campanile1985"/>
+						<citedRange>89-98</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Rix1985"/>
+						<citedRange>195</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Coleman1986"/>
+						<citedRange>100-131</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Ferenczy1987"/>
+						<citedRange>97-108</citedRange>
+					</bibl>	
+					<bibl>
+						<ptr target="Biblio.xml#Wachter1987"/>
+						<citedRange>75-80, §29</citedRange>
+					</bibl>
+					<bibl>
+						AE 1989, 152
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#Cristofani1990e"/>
+						<citedRange>23-24</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Lejeune1990"/>
+						<citedRange>60-63</citedRange>
+					</bibl>	
+					<bibl>
+						<ptr target="Biblio.xml#Romano1990"/>
+						<citedRange>53</citedRange>
+					</bibl>					
+					<bibl>
+						<ptr target="Biblio.xml#Versnel1990"/>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Flobert1991"/>
+						<citedRange>531-534</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Stibbe1991"/>
+						<citedRange>26, fig. 7</citedRange>
+					</bibl>
+					<bibl>
+						AE 1993, 449
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#De_Simone1993"/>
+						<citedRange>285-288</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Prosdocimi1993"/>
+						<citedRange>324-327</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Campanile1993d"/>
+						<citedRange>109</citedRange>
+					</bibl>
+					<bibl>
+						AE 1994, 383
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#Prosdocimi1994"/>
+						<citedRange>365-377</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Urbanova1994"/>
+						<citedRange>119-125</citedRange>
+					</bibl>
+					<bibl>
+						AE 1995, 292-293
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#Coarelli1995"/>
+						<citedRange>210-211</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Colonna1995"/>
+						<citedRange>350-351</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Sihler1995"/>
+						<citedRange>15</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#De_Simone1996a"/>
+						<citedRange>247-253</citedRange>
+					</bibl>
+					<bibl>
+						AE 1996, 399
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#de_Waele1996"/>
+						<citedRange>233</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Versnel1996"/>
+						<citedRange>46-61</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Waarsenburg1996"/>
+						<citedRange>5-9</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#De_Simone1997"/>
+						<citedRange>201-203</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Levi1997"/>
+						<citedRange>Cap. V</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Versnel1997"/>
+						<citedRange>177-197</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Waarsenburg1997"/>
+						<citedRange>198-200</citedRange>
+					</bibl>
+					<!-- <bibl>
+						Med. Nederl. Hist. Inst. Roma, 56, 1997, pp. 35-36 (D.W. Waarsenburg) (17)
+					</bibl> 
+			
+					<bibl>
+						Med. Nederl. Hist. Inst. Roma, 56, 1997, pp. 74-77, con disegni a figg. 3-4 (J.A.K.E. de Waele) (18)
+					</bibl> 
+			
+					<bibl>
+						Stud. Mat. Stor. Rel., 63, 1997, pp. 258-66 (C. Santi) (22)
+					</bibl>  -->
+					<bibl>
+						<ptr target="Biblio.xml#De_Simone1998"/>
+						<citedRange>61</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Kazanskij1998"/>
+						<citedRange>200-212</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Meiser1998"/>
+						<citedRange>4, 127, 218</citedRange>
+					</bibl>
+					<!-- <bibl>
+						Mél. Arch. Hist. Ec. Fr. Rome Ant., 111, 1999, pp. 847-881 (E. Hermon) (23)
+					</bibl>  -->
+					<bibl>
+						<ptr target="Biblio.xml#Urbanova1999"/>
+						<citedRange>481</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Baldi2002"/>
+						<citedRange>20, 204-206</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Lucchesi2002"/>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Friggeri2003"/>
+						<citedRange>23</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Hartmann2005"/>
+						<citedRange>138-142</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Gnade2008"/>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Colonna2008"/>
+						<citedRange>98-99 e 194-197, nr. 636</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Rocca2009"/>
+						<citedRange>67-100</citedRange>
+					</bibl>
+					<!-- <bibl>
+						La grande Roma dei Tarquini (Atti del XVI Convegno di Studi sulla storia e l'archeologia dell'Etruria), Roma 2010, pp. 379-382, 1.2.5 (A.L. Prosdocimi)(28)
+					</bibl> 
+			
+					<bibl>
+						F. Coarelli, Le origini di Roma. La cultura artistica dalle origini al III sec. a.C.,Milano 2011, p. 36, con facsimile (29)
+					</bibl> 
+			
+					<bibl>
+						Terme di Diocleziano. La collezione epigrafica, Milano 2012, pp. 122-124, nr. II,11, con foto e bibliografia (M. Gnade - D. Nonnis) (30)
+					</bibl> 
+			 		-->
+					<bibl>
+						<ptr target="Biblio.xml#Rocca2014"/>
+					</bibl>
+			
+					
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

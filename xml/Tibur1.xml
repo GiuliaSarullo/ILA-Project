@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Tibur1 - Iscrizione sulla base di Tivoli</title>
+				<editor></editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://www.ila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM">257608</idno>
+				<idno type="localID">Tibur1</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Roma</settlement>
+						<repository>Museo Nazionale Romano, Terme di Diocleziano, inv. scavo SA77-01.</repository>
+						<idno>inv. 108737</idno>
+					</msIdentifier>
+					
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53.html">Base</objectType> di
+								<material ref="http://www.eagle-network.eu/voc/material/lod/78.html">tufo</material> litoide 
+									(noto anche come ‘tufo dell’Aniene’, cf. De Angelis d’Ossat 1949-50: 9).
+								<dimensions unit="cm">
+									<width unit="cm">47</width>
+                                    <height unit="cm">64</height>
+                                    <depth unit="cm">41</depth>
+								</dimensions>
+								Il blocco è	formato da un dado di pietra di <height unit="cm">45</height>, <width unit="cm">47</width>
+									<depth unit="cm">41</depth>, sormontato nella parte superiore 
+								da una base, ricavata dallo stesso blocco, <quote>a sagoma arcaica, formata da un guscio e da 
+								una gola, motivo di decorazione semplice e caratteristico dell’arte etrusco-romana e 
+								delle manifestazioni artistiche dei popoli italici</quote> (G. Mancini 1926: 216). 
+								<lb/>Sulla superficie superiore vi sono due rincassi rettangolari, uno inserito nell’altro,
+								rispettivamente di 24 x 22 cm (rincasso esterno) e 18 x 10 cm (rincasso interno); nel 
+								rincasso interno vi sono due piccoli incavi rotondi, non molto profondi, quello di 
+								sinistra con diametro 0,036 cm e quello di destra 0,038 cm, secondo le misure date in 
+								G. Mancini (1926: 216-217), all’incirca coincidenti con quelle fornite in tempi 
+								recenti ad Hartmann (2005: 198) dalla Direttrice del Museo Nazionale Romano Rosanna 
+								Friggeri.
+								<lb/>Diverse le misure del blocco fornite in A. Mancini (1979: 370): altezza 70, 
+								larghezza 46 e profondità 42 cm; e quelle più di recente offerte in Gregori 
+								(1990: 24): altezza 68,5, larghezza 38,5 e profondità 43 cm; misure dello specchio
+								epigrafico 41,2 x 38,5.
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/11.html">mutilo</rs> <!-- Aggiungere questa traduzione -->.
+								</p>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								Iscrizione <rs type="execution" key="scalpro" ref="http://www.eagle-network.eu/voc/writing/lod/1">incisa</rs> con uno
+								scalpello sulla faccia frontale del blocco di tufo.
+                                <lb/>Ductus: andamento spiraliforme dall’esterno verso l’interno; il ductus di conseguenza
+								cambia di frequente, ad ogni curvatura della spirale. Il punto d’inizio dell’iscrizione 
+								si trova sul lato destro esterno (la prima lettera è het di <hi rend="italic">hoi</hi>) e termina a sinistra 
+								internamente con D di <hi rend="italic">fileod</hi>. 
+								<lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="3" atMost="4.5"/> (A. 
+							Mancini 1979: 371, 373); <height unit="cm" atLeast="3" atMost="5"/> per Gregori (1990: 24).
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/3187">Tibur</placeName>, 
+							località Vesta.
+						</origPlace>
+						<origDate notBefore="-0550" notAfter="-0501" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Seconda metà del 
+							VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1926" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1926</date> durante i lavori di sterro 
+							    	eseguiti per conto della Società Anglo-Romana per l’illuminazione di Roma, 
+							    	a sinistra dell’alveo dell’Aniene in località Vesta, non lontana dal <placeName ref="http://pleiades.stoa.org/places/426608">ponte 
+							    	dell’Acquoria</placeName>, cf. G. Mancini (1926: 216).
+							    </p>
+						</provenance>
+						<provenance type="observed" when="1953">
+							<ab>
+							La base era stata originariamente collocata in una delle sale della villa d’Este a 
+							Tivoli (G. Mancini 1926: 218), dove è rimasta almeno fino al 1953, dato che il Vetter 
+							indica ancora questa ubicazione.
+							</ab>
+						</provenance>
+						<provenance type="observed" when="1957">
+							<ab>
+							L’oggetto viene poi trasferito al Museo Nazionale 
+							Romano ed è questa la collocazione dichiarata nella silloge di Degrassi, per cui si 
+							evince che il donario è stato portato a Roma almeno dal 1957.
+							</ab>
+						</provenance>
+                        <provenance type="observed" subtype="autopsied" when="2009">
+                            Museo Nazionale Romano - Terme di Diocleziano, <placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/2058">Roma</placeName>.
+                        </provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+					<keywords>
+					<term ref="http://www.eagle-network.eu/voc/typeins/lod/79.html">dedica</term>
+					<term>iscrizione parlante</term>
+					</keywords>
+				</textClass>
+			
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+			</profileDesc>
+			
+			<revisionDesc>
+			<change when="2015-05-29" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/121/121732.jpg">
+					<desc>foto da A. Degrassi, Inscriptiones latinae liberae rei publicae. Imagines, Berolini 1965, nr. 118 - Image already provided by Linked Heritage
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                 <head>Trascrizione diplomatica</head>
+                <ab>
+                    <lb n="1" rend="down-to-up"/><w>HOI</w><w>M
+                    <lb n="2" rend="right-to-left" type="inWord"/>ED</w><w>MITAT</w><persName>KA<hi rend="upside-down">V</hi>IO
+                    <lb n="3" rend="up-to-down" type="inWord"/><unclear reason="damage">S</unclear></persName><gap reason="lost" 
+                        extent="1" unit="character"/><gap reason="illegible" extent="unknown" unit="character" precision="low"/><persName><gap reason="illegible" quantity="1"/>
+                    <lb n="4" rend="left-to-right" type="inWord"/>O<hi rend="reversed">N</hi>IOS</persName><persName>QETIOS</persName><w>D
+                    <lb n="5" rend="down-to-up" type="inWord"/><supplied reason="lost">O</supplied><unclear reason="damage">N</unclear>O
+                    <lb n="6" rend="right-to-left" type="inWord"/>M</w><w>PRO</w><w>FI<hi rend="upside-down">L</hi>EO
+                    <lb n="7" rend="up-to-down" type="inWord"/>D</w>
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+               <p>
+                    <app>
+                     
+                    </app>
+                    
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>H = het chiuso, tagliato al centro da un tratto orizzontale.
+					<lb/>O = a punto. Il punto è realizzato con dimensioni piuttosto marcate nella
+                	pietra in quasi tutte le occorrenze: farebbe eccezione quella del passaggio 
+                	PRO, in cui il foro appare molto ridotto.
+					<lb/>I = a barra verticale.
+					<lb/>M = l’iscrizione mostra la compresenza di diverse varietà di questa 
+                	lettera: la varietà arcaica a 5 tratti di grandezza uguale, in 
+                	<hi rend="italic">mitat</hi>, e quella a 4 tratti, in <hi rend="italic">med</hi> e 
+                	<hi rend="italic">d[o]nom</hi>. L’occorrenza in <hi rend="italic">mitat</hi> è retrograda.
+					<lb/>E = nella sua varietà arcaica: nelle varie occorrenze è realizzata però 
+                	diversamente, in <hi rend="italic">med</hi> i tre tratti non sono obliqui ma l’asta 
+                	verticale si prolunga verso il basso, in <hi rend="italic">qetios</hi> e <hi rend="italic">fileod</hi>
+                	il tratto verticale non si allunga verso il basso ma i tre tratti sono obliqui.
+					<lb/>D = nell’occorrenza di <hi rend="italic">med</hi> l’asta verticale si prolunga di 
+                	poco verso il basso; in generale è realizzata con una ‘pancia’ piuttosto allargata.
+					<lb/>T = con tratto superiore orizzontale.
+					<lb/>A = con traversa innestata a metà delle due aste portanti e ascendente in direzione 
+                	del ductus.
+					<lb/>K = di tipo arcaico, con i due tratti obliqui separati.
+					<lb/>V = a forma di V, capovolta.
+					<lb/>S = sembrano coesistere due varianti: quella visibile in <hi rend="italic">]onios</hi>
+                	è a 4 tratti, quella di <hi rend="italic">qetios</hi> è del tipo a 3 tratti; 
+                	probabilmente a 3 tratti dovrebbe essere anche quella che cade in frattura in <hi rend="italic">kauios</hi>,
+                	che appare anche retrograda.
+					<lb/>N = appare di tipo evoluto ma retrograda in base al ductus del segmento <hi rend="italic">]onios</hi>;
+                	l’occorrenza in <hi rend="italic">d[o]nom</hi>, che cade in frattura ma è parzialmente 
+                	visibile, appare dritta rispetto al lettore e non, come ci si aspetterebbe, ruotata in 
+                	orizzontale per seguire il ductus verticale dell’iscrizione in quel segmento della 
+                	spirale.
+					<lb/>Q = il qoppa presenta un trattino che taglia l’interno del cerchio.
+					<lb/>P = la lettera appare costituita da un’asta verticale cortissima e un ampio 
+                	occhiello aperto molto tondeggiante, tanto che a causa del deterioramento della pietra 
+                	la lettera può sembrare, a prima vista, un cerchio chiuso.
+					<lb/>R = a forma di rho con occhiello chiuso, senza appendice.
+					<lb/>F = a forma di digamma con valore /f/.
+					<lb/>L = con appendice ad angolo acuto, capovolto.
+					<lb/>[Per la lettura di P, R e O nel passaggio <hi rend="italic">pro fileod</hi>, vd. Note e questioni (9); per altre osservazioni sulle caratteristiche grafiche delle lettere, vd. Note e questioni (10)] 
+                	</ab>
+				</div>
+				
+				<div type="bibliography">
+				
+					<listBibl>
+					<!-- <bibl>
+ 							<ptr target="biblio.xml#jmr1971a"/>
+ 							<citedRange>3</citedRange>
+						</bibl> -->
+		
+						<bibl>
+						CIL 01 (2 ed.), 2658 (1) cfr. pp. 831 (2) e 858 (3)
+					</bibl> 
+			
+					<bibl>
+						InscrIt, 04, 1, 0001 con fotografia (4)
+					</bibl> 
+			
+					<bibl>
+						HD025411 (A. Scheithauer) (5)
+					</bibl> 
+			
+					<bibl>
+						Latomus, 56, 1997, pp. 58-66, con bibl. prec., fotografia e facsimile (I.-J. Adiego) (6)
+					</bibl> 
+			
+					<bibl>
+						M. Hartmann, Die frülateinischen Inschriften und ihre Datierung, Bremen 2005, pp. 131-137, con bibl. prec.,  fotografie e facsimili (7)
+					</bibl> 
+			
+					<bibl>
+						Il Lazio dai Colli Albani ai Monti Lepini tra preistoria ed età moderna, a cura di L. Drago Troccoli, Roma 2009, p. 435, A.9 con facsimile a p. 436 fig. 1 (D.F. Maras) (8)
+					</bibl> 
+			
+					<bibl>
+						Terme di Diocleziano. La collezione epigrafica, a cura di R. Friggeri - M.G. Granino Cecere - G.L. Gregori, Milano 2012, pp. 134-135, II,14, con fotografie (D. Nonnis) (9)
+					</bibl>			
+				</listBibl>
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

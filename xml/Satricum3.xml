@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Satricum3 - Iscrizione su dolio</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://progettoila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM"> </idno>
+				<idno type="localID">Satricum3</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Le Ferriere (Latina)</settlement>
+						<repository>magazzini</repository>
+						<idno>inv. P862-A2002</idno>	
+						<altIdentifier>
+							<idno type="CIL">---</idno>
+						</altIdentifier>
+						<altIdentifier>
+							<idno type="EDR">EDR134636</idno>
+						</altIdentifier>
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+							  	<p>
+								Parte della spalla di un <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/116">dolio</objectType> di
+								<material ref="http://www.eagle-network.eu/voc/material/lod/130">impasto</material> rosso a nucleo grigio, 
+									ricomposta da sei frammenti. Probabilmente appartiene allo stesso dolio di Satricum4 e Satricum5. <!-- Mettere i link -->
+								<dimensions unit="cm">
+								<width unit="cm">19</width>
+                                <height unit="cm">27</height>
+                                <depth unit="cm" atLeast="3" atMost="3.5"/>
+								</dimensions></p>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15.html">frammento</rs> <!-- Aggiungere questa traduzione -->.
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/14" key="stilo">incisa</rs> prima della cottura
+								con uno strumento con sezione a V a ridosso di una presa.
+								<lb/>Ductus: bustrofedico (imperfetto), con partenza sinistrorsa.
+                                <lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="1.6" atMost="3.2"/>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/14345">Satricum</placeName>, 
+							località Le Ferriere presso Campoverde</origPlace>
+						<origDate notBefore="-0575" notAfter="-0525" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Metà VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="2002" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">2002</date> nell'edificio V sull'acropoli di 
+							    	<placeName ref="http://pleiades.stoa.org/places/423060">Satricum</placeName>, in giacitura secondaria.
+							    </p>
+						</provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+	<!--  	<term ref="http://www.eagle-network.eu/voc/typeins/lod/105">firma?</term>-->
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/119">marchio?</term> <!-- aggiungere traduzione -->
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+		<!-- 	<revisionDesc>
+			<change when="2015-05-22" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc> -->
+		</teiHeader>
+		
+			<facsimile>
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134636-1.jpg">
+					<desc>dolio con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>		
+				
+				<graphic rend="apographon" url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134636.jpg">
+					<desc>dolio con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                  <ab>
+                    <lb n="1" rend="right-to-left"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="illegible" unit="character" quantity="1"></gap>A<persName>MAMARC
+                    <lb n="2" rend="left-to-right" break="no"/>OM</persName><w>PLACIOM</w><gap reason="lost"/>       
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                <p>
+                    <app loc="1">
+                        <note>
+                            Il primo segno è la parte inferiore di un’asta verticale: I?
+                        </note>
+                    </app>
+                    <app loc="1">
+                        <rdg resp="Colonna"><supplied reason="lost" resp="Colonna">E</supplied>IA</rdg>
+                    </app>
+                </p>
+			</div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>A: con traversa due volte orizzontale e una volta ascendente verso destra.
+                    <lb/>M: a cinque tratti con la prima asta più lunga delle altre.
+                    <lb/>R: a forma di rho con occhiello arrotondato.
+                    <lb/>C: semilunato.
+                    <lb/>O: di dimensioni leggermente inferiori, in una occorrenza non perfettamente chiusa.
+                    <lb/>P: ad uncino arrotondato, aperto.
+                    <lb/>L: con spigolo in basso ad angolo acuto.  
+                    <lb/>I: asta verticale lunga.
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+					<bibl subtype="primasegnalazione">
+						<ptr target="Biblio.xml#Gnade2004"/>
+						<citedRange>265-272</citedRange>
+					</bibl>
+					<bibl subtype="princeps">
+						<ptr target="Biblio.xml#Gnade2003"/>
+						<citedRange>1-21</citedRange>
+					</bibl>
+					<bibl>
+						AE 2003, 297a 
+					</bibl> 
+					<bibl>
+						<ptr target="Biblio.xml#Colonna2008"/>
+						<citedRange>98-99 e 194-197, nr. 634</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Drago_Troccoli2009"/>
+						<citedRange>435 A.7a</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Rocca2009"/>
+						<citedRange>72-73</citedRange>
+					</bibl>
+					<bibl>
+						<ptr target="Biblio.xml#Adamik2010"/>
+						<citedRange>17-30</citedRange>
+					</bibl>
+				
+				</div>
+				
+			</body>
+		</text>
+		</TEI>

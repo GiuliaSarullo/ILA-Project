@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+				<title>Acqua Acetosa Laurentina 2 - Iscrizione su ciotola</title>
+				<editor>Giovanna Rocca</editor>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Iscrizioni Latine Arcaiche</authority>
+				<idno type="URI">http://www.ila.iulm.it</idno> <!-- Il link è ancora da stabilire -->
+				<idno type="TM"> </idno>
+				<idno type="localID">AAL2</idno>	
+				<availability>
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via Iscrizioni Latine Arcaiche</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Roma</settlement>
+						<repository>Museo Nazionale Romano alle Terme di Diocleziano</repository>
+						<idno>inv. 278678</idno>
+						<altIdentifier>
+							<idno type="CIL">CIL I2 2917a</idno>
+ 						</altIdentifier>
+					</msIdentifier>
+					 <head>Dati archeologici</head>
+                    <!--Non so se è necessario usare questo header o se si può impostare un header automatico -->
+                   	<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<p>
+								<objectType>ciotola</objectType> di <material>bucchero</material>
+									ad orlo piatto e largo piede ad anello ricomposta da varii frammenti.
+								<dimensions unit="cm">
+								<width unit="cm">13,6</width>
+                                <height unit="cm">3,8</height>
+                                </dimensions>
+								Diametro del piede <dim type="diameter">7,7</dim>.</p>
+								<rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000" xml:lang="it">non presente</rs>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/11.html">mutilo</rs> <!-- Aggiungere questa traduzione -->.
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								L’iscrizione è <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/9" key="scariphatis">graffita</rs> dopo la cottura
+								all'esterno della vasca.
+								<lb/>Ductus: destrorso.
+                                <lb/>Segni divisori: nessuno.
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							Le lettere hanno un'altezza di <height unit="cm" atLeast="1.2" atMost="2.3"/>.
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin>
+						<origPlace corresp="#findspot"><placeName type="provinceItalicRegion" ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa Laurentina</placeName>.
+						</origPlace>
+						<origDate notBefore="-0599" notAfter="-0550" precision="low"
+                                evidence="internal" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">Prima metà del VI secolo a.C.</origDate>
+						</origin>
+						<provenance type="found" when="1978" subtype="discovered" xml:id="findspot"> 
+							    <p>Rinvenuta nel <date type="foundDate">1978</date>, nel pozzo n. 2 di <placeName ref="http://pleiades.stoa.org/places/422802">Acqua Acetosa</placeName> 
+							    	sulla via Laurentina, in associazione con una floral-band cup attica di fine VI sec. a.C..
+							    </p>
+						</provenance>
+						<provenance type="observed" when="2009" subtype="autopsied">
+							Museo Nazionale Romano alle Terme di Diocleziano.
+						</provenance>
+                 	</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p>Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass>
+		<keywords>
+		<term>possesso?</term> <!-- Manca il ref -->
+		</keywords>
+		</textClass>
+
+				<langUsage>
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc>
+			<change when="2015-05-26" who="Giulia Sarullo">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			<!-- Scegliere le immagini e caricarle su WikiMedia Commons -->
+						
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/134/134636-1.jpg">
+					<desc>dolio con iscrizione arcaica
+					<ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via Epigraphic Database Roma</ref>	
+					</desc>
+					</graphic>
+			</facsimile>
+			
+		<text>
+			<body>
+				<div type="edition" subtype="diplomatic" xml:lang="la">
+                <head>Trascrizione diplomatica</head>
+                <ab>
+                 <lb n="1" rend="left-to-right"/><persName>KARKAϝAIOS</persName> 
+                </ab>
+            	</div>
+
+			<div type="apparatus">
+			  <head>Apparato critico</head>
+                
+            </div>
+			
+				<div type="commentary" subtype="epigraphic">
+				<head>Commento epigrafico</head>
+                <ab> 
+                	<lb/>K: nella prima i tratti obliqui si innestano separatamente sull'asta verticale, 
+                            nella seconda i tratti sono uniti ad angolo che, nel punto di intersezione, fuoriescono leggermente dall'asta verticale.
+                    <lb/>A: su un'asta leggermente obliqua si innesta, poco più in basso del vertice, 
+                            un tratto obliquo leggermente curvilineo; la traversa è discendente nel senso di scrittura e in un caso 
+                            si congiunge al tratto obliquo quasi in corrispondenza della base di quest'ultimo.
+                    <lb/>R: in forma di rho, con occhiello angoloso che si congiunge all'asta verticale in corrispondenza
+                            della base e del vertice di quest'ultima.  
+                    <lb/>ϝ: asta verticale su cui si innestano i due tratti obliqui; il tratto centrale è leggermente più lungo.
+                    <lb/>I: asta verticale leggermente più corta delle altre lettere.
+                    <lb/>O: di forma romboidale, aperta in basso.
+                    <lb/>S: angoloso, a tre tratti, il primo dei quali incompleto. 
+                </ab>
+				</div>
+				
+				<div type="bibliography">
+				
+					<listBibl>
+					<!-- <bibl>
+ 							<ptr target="biblio.xml#jmr1971a"/>
+ 							<citedRange>3</citedRange>
+						</bibl> -->
+		
+						<bibl>
+						Arch. Class., 54, 2003, pp. 1-21, con disegni e foto a figg. 1, 5 e 11-15 (M. Gnade - G. Colonna) - AE 2003 (1)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+			</body>
+		</text>
+		</TEI>
